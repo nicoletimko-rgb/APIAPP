@@ -65,10 +65,6 @@
 
     <!-- ============ TRACKING VIEWPORT ============ -->
 
-    <!-- ============ STAGE: court (left) + side panel (right) ============ -->
-
-    <div class="st-stage">
-
     <section class="st-court" id="court">
 
 
@@ -236,13 +232,9 @@
     </section>
 
 
-    <!-- ============ SIDE PANEL ============ -->
+    <!-- ============ FEATURES + CONTROLS ============ -->
 
-    <aside class="st-side">
-
-
-        <!-- ============ FEATURES + CONTROLS ============ -->
-
+    <div class="st-body">
 
 
         <section class="st-features">
@@ -271,7 +263,7 @@
                 </div>
 
                 <div class="st-meter-value">
-                    <span id="score" style="font-size: 2rem; color: inherit; letter-spacing: 0;">1000</span>
+                    <span id="score" style="font-size: 2.4rem; color: inherit; letter-spacing: 0;">1000</span>
                 </div>
 
                 <div class="st-bar"><i id="score-bar"></i></div>
@@ -283,7 +275,7 @@
 
 
             <button id="clue-button" class="st-reveal-btn" disabled>
-                NEXT CLUE
+                REVEAL NEXT CLUE
             </button>
 
 
@@ -298,6 +290,9 @@
             </div>
 
         </section>
+
+    </div>
+
 
     <!-- ============ GUESS ============ -->
 
@@ -322,10 +317,6 @@
     </div>
 
     <p class="st-status" id="message">Connecting to NBA API…</p>
-
-    </aside>
-
-    </div><!-- /.st-stage -->
 
 
     <!-- ============ FOOTER ============ -->

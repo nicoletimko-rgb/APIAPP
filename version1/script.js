@@ -584,13 +584,6 @@ function partialLength(points, index) {
 
 window.addEventListener("resize", drawTrajectory);
 
-/* The court now sizes itself to the side panel, so watch it
-   directly instead of only listening for window resizes. */
-
-if ("ResizeObserver" in window) {
-    new ResizeObserver(drawTrajectory).observe(court);
-}
-
 
 /* =====================================================
    GUESSING
