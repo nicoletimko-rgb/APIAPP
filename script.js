@@ -196,7 +196,7 @@ function startGame() {
     root.classList.add("is-ready");
 
     cluesContainer.innerHTML =
-        `<p class="st-empty">No features revealed. Guess blind for the full 1000.</p>`;
+        `<p class="st-empty">No clues revealed. Guess blind for the full 1000.</p>`;
 
     guessInput.value = "";
     suggestionsContainer.innerHTML = "";
@@ -205,7 +205,7 @@ function startGame() {
         ? "#" + String(mysteryPlayer.id).padStart(4, "0")
         : "#0000";
 
-    message.textContent = "Target locked. Take a guess or reveal a feature.";
+    message.textContent = "Target locked. Take a guess or reveal a clue.";
     setPhase("TRACKING");
 
     enableGameControls();
