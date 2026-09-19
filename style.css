@@ -1,0 +1,873 @@
+/* =====================================================
+   GUESS THE NBA PLAYER — SHOT TRACKER
+   Visual language: sports-tracking telemetry.
+
+   Every selector is prefixed .st- so this file can be
+   dropped into the portfolio without colliding with
+   existing site CSS.
+===================================================== */
+
+.st {
+    /* base surfaces */
+    --st-void:        #06060c;
+    --st-panel:       #0c0c15;
+    --st-panel-2:     #11111d;
+    --st-line:        #1e1e2d;
+    --st-line-bright: #2b2b40;
+
+    /* portfolio violet */
+    --st-violet:      #7c3aed;
+    --st-violet-lit:  #a78bfa;
+
+    /* tracking colors */
+    --st-track:       #ff7a45;   /* the ball + its path */
+    --st-rig:         #5eead4;   /* motion-capture teal */
+
+    /* type */
+    --st-ink:         #f2f2f7;
+    --st-ink-dim:     #8c8ca3;
+    --st-ink-faint:   #55556a;
+
+    --st-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+    --st-sans: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+
+/* =====================================================
+   SHELL
+===================================================== */
+
+.st {
+    font-family: var(--st-sans);
+    color: var(--st-ink);
+    background: var(--st-panel);
+    border: 1px solid var(--st-line);
+    border-radius: 14px;
+    overflow: hidden;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.st *,
+.st *::before,
+.st *::after {
+    box-sizing: border-box;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.st-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 22px 26px 18px;
+    border-bottom: 1px solid var(--st-line);
+    background:
+        linear-gradient(180deg, rgba(124, 58, 237, 0.10), transparent 90%);
+}
+
+.st-kicker {
+    font-family: var(--st-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.18em;
+    color: var(--st-violet-lit);
+    margin: 0 0 6px;
+}
+
+.st-title {
+    font-size: clamp(1.5rem, 3.4vw, 2.1rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0;
+    line-height: 1;
+}
+
+.st-sub {
+    margin: 8px 0 0;
+    max-width: 46ch;
+    color: var(--st-ink-dim);
+    font-size: 0.86rem;
+    line-height: 1.5;
+}
+
+
+/* live status pill */
+
+.st-live {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--st-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.14em;
+    color: var(--st-ink-dim);
+    white-space: nowrap;
+    padding-bottom: 4px;
+}
+
+.st-led {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--st-ink-faint);
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.04);
+}
+
+.st.is-ready  .st-led { background: var(--st-rig);    box-shadow: 0 0 10px var(--st-rig); }
+.st.is-made   .st-led { background: var(--st-rig);    box-shadow: 0 0 10px var(--st-rig); }
+.st.is-missed .st-led { background: var(--st-track);  box-shadow: 0 0 10px var(--st-track); }
+
+
+/* =====================================================
+   VIEWPORT (the court)
+===================================================== */
+
+.st-court {
+    position: relative;
+    height: 370px;
+    overflow: hidden;
+    background:
+        radial-gradient(120% 90% at 74% 18%, rgba(124, 58, 237, 0.16), transparent 62%),
+        linear-gradient(180deg, #080810, #0a0a14 62%, #0c0c17);
+    border-bottom: 1px solid var(--st-line);
+    cursor: crosshair;
+}
+
+
+/* perspective floor + court markings */
+
+.st-grid {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.st-grid .depth   { stroke: rgba(124, 58, 237, 0.30); stroke-width: 1; fill: none; }
+.st-grid .lane    { stroke: rgba(94, 234, 212, 0.22); stroke-width: 1; fill: none; }
+.st-grid .arc     { stroke: rgba(255, 255, 255, 0.16); stroke-width: 1.2; fill: none; }
+.st-grid .floor   { fill: rgba(124, 58, 237, 0.07); stroke: none; }
+.st-grid .key     { fill: rgba(94, 234, 212, 0.05); stroke: rgba(94, 234, 212, 0.18); stroke-width: 1; }
+.st-grid .horizon { stroke: rgba(124, 58, 237, 0.45); stroke-width: 1; }
+
+
+/* plotted trajectory */
+
+.st-plot {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    pointer-events: none;
+}
+
+.st-plot .projected {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.20);
+    stroke-width: 1.2;
+    stroke-dasharray: 3 7;
+    stroke-linecap: round;
+}
+
+.st-plot .flown {
+    fill: none;
+    stroke: var(--st-track);
+    stroke-width: 2;
+    stroke-linecap: round;
+    filter: drop-shadow(0 0 6px rgba(255, 122, 69, 0.5));
+    transition: stroke-dashoffset 0.45s ease-out;
+}
+
+
+/* sampled positions left behind by the ball */
+
+.st-sample {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin: 0 0 -6px -6px;
+    border-radius: 50%;
+    background: var(--st-track);
+    transform: translate(22px, -22px);
+    z-index: 5;
+    animation: st-drop 0.4s ease-out both;
+}
+
+@keyframes st-drop {
+    from { opacity: 0; scale: 2.2; }
+    to   { opacity: 0.85; scale: 1; }
+}
+
+
+/* =====================================================
+   MOTION-CAPTURE SHOOTER
+===================================================== */
+
+.st-rig-figure {
+    position: absolute;
+    left: 1%;
+    bottom: 30px;
+    width: 118px;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.st-rig-figure .bone {
+    stroke: var(--st-rig);
+    stroke-width: 2.4;
+    stroke-linecap: round;
+    fill: none;
+}
+
+.st-rig-figure .joint {
+    fill: #dffcf5;
+}
+
+.st-rig-figure .ghost {
+    stroke: var(--st-rig);
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    fill: none;
+    opacity: 0.16;
+}
+
+
+/* =====================================================
+   THE BALL (tracked object)
+===================================================== */
+
+.st-ball {
+    position: absolute;
+    left: 7%;
+    bottom: 150px;
+    width: 44px;
+    height: 44px;
+    z-index: 20;
+
+    /* JS writes left / bottom / transform; the
+       transition turns those writes into motion. */
+    transition:
+        left 0.4s linear,
+        bottom 0.4s linear,
+        transform 0.4s linear;
+}
+
+.st-ball::before {
+    content: "";
+    position: absolute;
+    inset: 7px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 34% 30%, #ffb08a, var(--st-track) 58%, #c2410c);
+    box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.35),
+        0 0 22px rgba(255, 122, 69, 0.55);
+}
+
+/* seam, so the rotation JS already applies reads as spin */
+.st-ball::after {
+    content: "";
+    position: absolute;
+    inset: 7px;
+    border-radius: 50%;
+    border-top: 1.5px solid rgba(0, 0, 0, 0.45);
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.45);
+}
+
+/* tracking reticle around the live object */
+.st-ball .reticle {
+    position: absolute;
+    inset: 0;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 50%;
+}
+
+.st-ball .reticle::before,
+.st-ball .reticle::after {
+    content: "";
+    position: absolute;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.st-ball .reticle::before {
+    left: 50%;
+    top: -6px;
+    width: 1px;
+    height: 6px;
+}
+
+.st-ball .reticle::after {
+    top: 50%;
+    right: -6px;
+    height: 1px;
+    width: 6px;
+}
+
+
+/* rejected guess: the tracker loses lock */
+
+.st-ball.shake {
+    animation: st-shake 0.45s;
+}
+
+@keyframes st-shake {
+    0%   { margin-left: 0; }
+    20%  { margin-left: -13px; }
+    40%  { margin-left: 13px; }
+    60%  { margin-left: -9px; }
+    80%  { margin-left: 9px; }
+    100% { margin-left: 0; }
+}
+
+
+/* continuous airball path (kept from the original) */
+
+.st-ball.airball {
+    transition: none;
+    animation: st-airball 1.6s linear forwards;
+}
+
+@keyframes st-airball {
+    0%   { left: 69%; bottom: 265px; transform: rotate(750deg); }
+    25%  { left: 74%; bottom: 235px; transform: rotate(850deg); }
+    50%  { left: 77%; bottom: 185px; transform: rotate(1000deg); }
+    75%  { left: 79%; bottom: 110px; transform: rotate(1150deg); }
+    100% { left: 80%; bottom: 35px;  transform: rotate(1300deg); }
+}
+
+
+/* =====================================================
+   HOOP — drawn as a target, not a photograph
+===================================================== */
+
+.st-hoop {
+    position: absolute;
+    right: 4%;
+    bottom: 35px;
+    width: 180px;
+    height: 250px;
+    z-index: 10;
+}
+
+.st-backboard {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 58px;
+    height: 118px;
+    background: rgba(94, 234, 212, 0.05);
+    border: 1px solid rgba(94, 234, 212, 0.45);
+    border-radius: 2px;
+}
+
+.st-backboard-square {
+    position: absolute;
+    left: 50%;
+    bottom: 12px;
+    width: 30px;
+    height: 24px;
+    margin-left: -15px;
+    border: 1px solid rgba(94, 234, 212, 0.75);
+}
+
+.st-rim {
+    position: absolute;
+    width: 76px;
+    height: 12px;
+    right: 22px;
+    top: 117px;
+    border: 1.6px solid var(--st-track);
+    border-radius: 50%;
+    background: rgba(255, 122, 69, 0.10);
+    z-index: 8;
+}
+
+.st-net {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    right: 29px;
+    top: 120px;
+    border-left: 1px dashed rgba(255, 255, 255, 0.40);
+    border-right: 1px dashed rgba(255, 255, 255, 0.40);
+    clip-path: polygon(0 0, 100% 0, 74% 100%, 26% 100%);
+    z-index: 6;
+}
+
+.st-net::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 11px,
+            rgba(255, 255, 255, 0.30) 11px,
+            rgba(255, 255, 255, 0.30) 12px
+        );
+}
+
+.st-net span {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.st-net span:nth-child(1) { left: 9px;  transform: rotate(10deg); }
+.st-net span:nth-child(2) { left: 21px; transform: rotate(5deg); }
+.st-net span:nth-child(3) { left: 31px; }
+.st-net span:nth-child(4) { left: 41px; transform: rotate(-5deg); }
+.st-net span:nth-child(5) { left: 52px; transform: rotate(-10deg); }
+
+.st-pole {
+    position: absolute;
+    right: 0.5px;
+    top: 100px;
+    width: 5px;
+    height: 150px;
+    background: linear-gradient(180deg, rgba(94, 234, 212, 0.5), rgba(94, 234, 212, 0.12));
+}
+
+/* rim flashes on a make, flares on a miss */
+.st.is-made   .st-rim { box-shadow: 0 0 26px rgba(94, 234, 212, 0.85); border-color: var(--st-rig); }
+.st.is-missed .st-backboard { box-shadow: 0 0 26px rgba(255, 122, 69, 0.55); border-color: var(--st-track); }
+
+
+/* =====================================================
+   HUD OVERLAYS
+===================================================== */
+
+.st-hud {
+    position: absolute;
+    z-index: 15;
+    font-family: var(--st-mono);
+    pointer-events: none;
+}
+
+.st-hud-tl {
+    left: 18px;
+    top: 16px;
+    font-size: 0.6rem;
+    letter-spacing: 0.16em;
+    color: var(--st-ink-faint);
+    line-height: 1.9;
+}
+
+.st-hud-tr {
+    right: 18px;
+    top: 16px;
+    display: flex;
+    gap: 22px;
+}
+
+.st-readout {
+    text-align: right;
+}
+
+.st-readout dt {
+    font-size: 0.56rem;
+    letter-spacing: 0.16em;
+    color: var(--st-ink-faint);
+    margin: 0 0 3px;
+}
+
+.st-readout dd {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    color: var(--st-ink);
+}
+
+.st-readout dd small {
+    font-size: 0.68rem;
+    color: var(--st-ink-faint);
+}
+
+.st-hud-bl {
+    left: 18px;
+    bottom: 14px;
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    color: var(--st-ink-dim);
+}
+
+
+/* =====================================================
+   BODY: features + controls
+===================================================== */
+
+.st-body {
+    display: grid;
+    grid-template-columns: 1.55fr 1fr;
+    gap: 0;
+}
+
+.st-features {
+    padding: 20px 26px 24px;
+    border-right: 1px solid var(--st-line);
+    min-height: 236px;
+}
+
+.st-panel-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: var(--st-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    color: var(--st-ink-faint);
+    padding-bottom: 10px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid var(--st-line);
+}
+
+
+/* one revealed clue = one row of a feature table */
+
+.st-feature {
+    display: grid;
+    grid-template-columns: 34px 1fr auto;
+    align-items: baseline;
+    gap: 12px;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--st-line);
+    animation: st-reveal 0.4s ease-out both;
+}
+
+@keyframes st-reveal {
+    from { opacity: 0; transform: translateX(-8px); }
+    to   { opacity: 1; transform: none; }
+}
+
+.st-feature .idx {
+    font-family: var(--st-mono);
+    font-size: 0.62rem;
+    color: var(--st-violet-lit);
+}
+
+.st-feature .key {
+    font-family: var(--st-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.12em;
+    color: var(--st-ink-faint);
+}
+
+.st-feature .val {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+.st-empty {
+    color: var(--st-ink-faint);
+    font-size: 0.85rem;
+    padding: 26px 0;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+/* right column */
+
+.st-controls {
+    padding: 20px 26px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.st-meter-value {
+    font-family: var(--st-mono);
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    margin: 2px 0 10px;
+}
+
+.st-meter-value span {
+    font-size: 0.7rem;
+    color: var(--st-ink-faint);
+    letter-spacing: 0.1em;
+    margin-left: 6px;
+}
+
+.st-bar {
+    height: 4px;
+    background: var(--st-line);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.st-bar i {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, var(--st-violet), var(--st-violet-lit));
+    transition: width 0.45s ease-out;
+}
+
+.st-ticks {
+    display: flex;
+    gap: 4px;
+    margin-top: 10px;
+}
+
+.st-ticks i {
+    flex: 1;
+    height: 3px;
+    background: var(--st-line);
+    border-radius: 2px;
+    transition: background 0.3s;
+}
+
+.st-ticks i.on {
+    background: var(--st-track);
+}
+
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+.st button {
+    font-family: var(--st-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    border: 1px solid var(--st-violet);
+    border-radius: 6px;
+    padding: 12px 16px;
+    background: var(--st-violet);
+    color: white;
+    cursor: pointer;
+    transition: background 0.18s, border-color 0.18s, opacity 0.18s;
+}
+
+.st button:hover:not(:disabled) {
+    background: #8b5cf6;
+}
+
+.st button:focus-visible {
+    outline: 2px solid var(--st-rig);
+    outline-offset: 2px;
+}
+
+.st button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.st .st-ghost {
+    background: transparent;
+    color: var(--st-ink-dim);
+    border-color: var(--st-line-bright);
+}
+
+.st .st-ghost:hover:not(:disabled) {
+    background: var(--st-panel-2);
+    border-color: var(--st-violet);
+    color: var(--st-ink);
+}
+
+.st-reveal-btn {
+    width: 100%;
+    margin-top: auto;
+}
+
+.st-minor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+
+/* =====================================================
+   GUESS BAR
+===================================================== */
+
+.st-guess {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    padding: 16px 26px;
+    border-top: 1px solid var(--st-line);
+    background: var(--st-panel-2);
+}
+
+.st-field {
+    position: relative;
+    flex: 1;
+}
+
+.st-field input {
+    width: 100%;
+    height: 100%;
+    padding: 13px 14px;
+    font-family: var(--st-mono);
+    font-size: 0.9rem;
+    color: var(--st-ink);
+    background: var(--st-void);
+    border: 1px solid var(--st-line-bright);
+    border-radius: 6px;
+    outline: none;
+}
+
+.st-field input::placeholder {
+    color: var(--st-ink-faint);
+}
+
+.st-field input:focus {
+    border-color: var(--st-violet);
+}
+
+.st-status {
+    font-family: var(--st-mono);
+    font-size: 0.72rem;
+    color: var(--st-ink-dim);
+    padding: 0 26px 18px;
+    margin: 0;
+    min-height: 20px;
+    background: var(--st-panel-2);
+}
+
+.st.is-made   .st-status { color: var(--st-rig); }
+.st.is-missed .st-status { color: var(--st-track); }
+
+
+/* autocomplete */
+
+.st-suggestions {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: calc(100% + 6px);
+    max-height: 230px;
+    overflow-y: auto;
+    background: #12121e;
+    border: 1px solid var(--st-line-bright);
+    border-radius: 6px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.6);
+    z-index: 100;
+}
+
+.st-suggestions:empty {
+    display: none;
+}
+
+.suggestion {
+    padding: 10px 14px;
+    font-size: 0.88rem;
+    cursor: pointer;
+    border-bottom: 1px solid var(--st-line);
+}
+
+.suggestion:last-child {
+    border-bottom: none;
+}
+
+.suggestion:hover,
+.suggestion.selected {
+    background: var(--st-violet);
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.st-foot {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 14px 26px;
+    border-top: 1px solid var(--st-line);
+    font-family: var(--st-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    color: var(--st-ink-faint);
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 780px) {
+
+    .st-head {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .st-court {
+        height: 300px;
+    }
+
+    .st-hoop {
+        transform: scale(0.74);
+        transform-origin: right bottom;
+    }
+
+    .st-rig-figure {
+        width: 88px;
+    }
+
+    /* the arc crowds the corner on narrow screens */
+    .st-hud-tl {
+        display: none;
+    }
+
+    .st-hud-tr {
+        gap: 14px;
+    }
+
+    .st-readout dd {
+        font-size: 0.95rem;
+    }
+
+    .st-body {
+        grid-template-columns: 1fr;
+    }
+
+    .st-features {
+        border-right: none;
+        border-bottom: 1px solid var(--st-line);
+        min-height: 0;
+    }
+
+    .st-guess {
+        flex-direction: column;
+    }
+}
+
+
+/* =====================================================
+   MOTION PREFERENCES
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .st-ball,
+    .st-bar i,
+    .st-plot .flown {
+        transition: none;
+    }
+
+    .st-ball.airball,
+    .st-ball.shake,
+    .st-feature,
+    .st-sample {
+        animation: none;
+    }
+}

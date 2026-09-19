@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shot Tracker — Guess the NBA Player</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Page-level styling only. Everything inside the
+           widget lives in style.css under the .st scope,
+           so this block can be deleted when embedding. */
+        body {
+            margin: 0;
+            padding: 28px 18px;
+            background: radial-gradient(circle at top, #1a1030, #06060c 60%);
+            min-height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- =========================================================
+     SHOT TRACKER WIDGET
+     Everything below is self-contained under .st
+========================================================== -->
+
+<div class="st" id="shot-tracker">
+
+
+    <!-- ============ HEADER ============ -->
+
+    <header class="st-head">
+
+        <div>
+            <p class="st-kicker">PLAYER IDENTIFICATION MODEL</p>
+
+            <h1 class="st-title">Who's that player?</h1>
+
+            <p class="st-sub">
+                Each feature you reveal narrows the search
+                and costs you points. Name the player before
+                the ball finishes its arc.
+            </p>
+        </div>
+
+        <div class="st-live">
+            <span class="st-led"></span>
+            <span id="live-label">CONNECTING</span>
+        </div>
+
+    </header>
+
+
+    <!-- ============ TRACKING VIEWPORT ============ -->
+
+    <section class="st-court" id="court">
+
+
+        <!-- floor plane + court markings -->
+
+        <svg class="st-grid" viewBox="0 0 1000 370" preserveAspectRatio="none" aria-hidden="true">
+
+            <rect class="floor" x="0" y="250" width="1000" height="120" />
+
+            <!-- painted area under the basket -->
+            <path class="key" d="M 700 370 L 1000 370 L 1000 288 L 792 288 Z" />
+
+            <!-- converging depth lines -->
+            <g class="depth">
+                <line x1="-400" y1="370" x2="69"  y2="250" />
+                <line x1="-220" y1="370" x2="156" y2="250" />
+                <line x1="-40"  y1="370" x2="242" y2="250" />
+                <line x1="140"  y1="370" x2="328" y2="250" />
+                <line x1="320"  y1="370" x2="414" y2="250" />
+                <line x1="500"  y1="370" x2="500" y2="250" />
+                <line x1="680"  y1="370" x2="586" y2="250" />
+                <line x1="860"  y1="370" x2="672" y2="250" />
+                <line x1="1040" y1="370" x2="758" y2="250" />
+                <line x1="1220" y1="370" x2="844" y2="250" />
+                <line x1="1400" y1="370" x2="931" y2="250" />
+            </g>
+
+            <!-- compressing cross lines -->
+            <g class="depth">
+                <line x1="0" y1="368" x2="1000" y2="368" />
+                <line x1="0" y1="344" x2="1000" y2="344" />
+                <line x1="0" y1="324" x2="1000" y2="324" />
+                <line x1="0" y1="307" x2="1000" y2="307" />
+                <line x1="0" y1="293" x2="1000" y2="293" />
+                <line x1="0" y1="281" x2="1000" y2="281" />
+                <line x1="0" y1="271" x2="1000" y2="271" />
+                <line x1="0" y1="263" x2="1000" y2="263" />
+                <line x1="0" y1="256" x2="1000" y2="256" />
+            </g>
+
+            <line class="horizon" x1="0" y1="250" x2="1000" y2="250" />
+
+            <!-- three-point line -->
+            <path class="arc" d="M 40 372 Q 500 236 960 372" />
+
+        </svg>
+
+
+        <!-- plotted trajectory, drawn by script.js -->
+
+        <svg class="st-plot" id="plot" preserveAspectRatio="none" aria-hidden="true">
+            <path class="projected" id="path-projected" d="" />
+            <path class="flown"     id="path-flown"     d="" />
+        </svg>
+
+
+        <!-- ============ MOTION-CAPTURE SHOOTER ============ -->
+
+        <svg class="st-rig-figure" viewBox="0 0 120 170" aria-hidden="true">
+
+            <!-- earlier frames of the same motion -->
+            <g class="ghost" transform="translate(-9 4) rotate(-5 54 90)">
+                <path d="M54 38 L52 88 M42 48 L66 46 M66 46 L78 38 L84 26" />
+                <path d="M42 48 L50 40 L58 32" />
+                <path d="M44 88 L40 120 L38 152 M60 88 L64 120 L66 152" />
+            </g>
+
+            <g class="ghost" transform="translate(-4 2) rotate(-2.5 54 90)">
+                <path d="M54 38 L52 88 M42 48 L66 46 M66 46 L79 35 L86 21" />
+                <path d="M42 48 L51 37 L59 27" />
+                <path d="M44 88 L40 120 L38 152 M60 88 L64 120 L66 152" />
+            </g>
+
+            <!-- live frame -->
+            <g class="bone">
+                <circle cx="54" cy="26" r="10.5" />
+                <path d="M54 37 L52 88" />
+                <path d="M42 48 L66 46" />
+                <path d="M66 46 L80 32 L88 16" />
+                <path d="M42 48 L52 34 L60 22" />
+                <path d="M44 88 L60 88" />
+                <path d="M44 88 L40 120 L38 152 L29 156" />
+                <path d="M60 88 L64 120 L66 152 L75 156" />
+            </g>
+
+            <g class="joint">
+                <circle cx="42" cy="48" r="2.6" />
+                <circle cx="66" cy="46" r="2.6" />
+                <circle cx="80" cy="32" r="2.6" />
+                <circle cx="88" cy="16" r="2.6" />
+                <circle cx="52" cy="34" r="2.6" />
+                <circle cx="60" cy="22" r="2.6" />
+                <circle cx="52" cy="88" r="2.6" />
+                <circle cx="44" cy="88" r="2.6" />
+                <circle cx="60" cy="88" r="2.6" />
+                <circle cx="40" cy="120" r="2.6" />
+                <circle cx="64" cy="120" r="2.6" />
+                <circle cx="38" cy="152" r="2.6" />
+                <circle cx="66" cy="152" r="2.6" />
+            </g>
+
+        </svg>
+
+
+        <!-- ============ TRACKED OBJECT ============ -->
+
+        <div class="st-ball" id="basketball">
+            <span class="reticle"></span>
+        </div>
+
+
+        <!-- ============ HOOP ============ -->
+
+        <div class="st-hoop">
+
+            <div class="st-backboard">
+                <div class="st-backboard-square"></div>
+            </div>
+
+            <div class="st-rim" id="rim"></div>
+
+            <div class="st-net">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="st-pole"></div>
+
+        </div>
+
+
+        <!-- ============ HUD ============ -->
+
+        <div class="st-hud st-hud-tl">
+            <div>SHOT TRACKER · THREE POINTER</div>
+            <div>MYSTERY PLAYER <span id="track-id">—</span></div>
+        </div>
+
+        <div class="st-hud st-hud-tr">
+
+            <dl class="st-readout">
+                <dt>FEATURES</dt>
+                <dd><span id="feature-count">0</span><small>/5</small></dd>
+            </dl>
+
+            <dl class="st-readout">
+                <dt>CERTAINTY</dt>
+                <dd><span id="certainty">12</span><small>%</small></dd>
+            </dl>
+
+            <dl class="st-readout">
+                <dt>ARC</dt>
+                <dd><span id="arc-pct">0</span><small>%</small></dd>
+            </dl>
+
+        </div>
+
+        <div class="st-hud st-hud-bl" id="phase">
+            AWAITING DATA
+        </div>
+
+    </section>
+
+
+    <!-- ============ FEATURES + CONTROLS ============ -->
+
+    <div class="st-body">
+
+
+        <section class="st-features">
+
+            <div class="st-panel-label">
+                <span>REVEALED FEATURES</span>
+                <span id="features-meta">—</span>
+            </div>
+
+            <div id="clues">
+                <p class="st-empty">
+                    Pulling the player pool from the
+                    BALLDONTLIE API.
+                </p>
+            </div>
+
+        </section>
+
+
+        <section class="st-controls">
+
+            <div>
+                <div class="st-panel-label">
+                    <span>EXPECTED POINTS</span>
+                    <span id="decay">FULL</span>
+                </div>
+
+                <div class="st-meter-value">
+                    <span id="score" style="font-size: 2.4rem; color: inherit; letter-spacing: 0;">1000</span>
+                </div>
+
+                <div class="st-bar"><i id="score-bar"></i></div>
+
+                <div class="st-ticks">
+                    <i></i><i></i><i></i><i></i><i></i>
+                </div>
+            </div>
+
+
+            <button id="clue-button" class="st-reveal-btn" disabled>
+                REVEAL NEXT FEATURE
+            </button>
+
+
+            <div class="st-minor">
+                <button id="give-up-button" class="st-ghost" disabled>
+                    GIVE UP
+                </button>
+
+                <button id="new-game-button" class="st-ghost" disabled>
+                    NEW PLAYER
+                </button>
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- ============ GUESS ============ -->
+
+    <div class="st-guess">
+
+        <div class="st-field">
+
+            <input
+                id="guess-input"
+                type="text"
+                placeholder="Type a player name…"
+                autocomplete="off"
+                disabled
+            >
+
+            <div id="suggestions" class="st-suggestions"></div>
+
+        </div>
+
+        <button id="guess-button" disabled>SUBMIT GUESS</button>
+
+    </div>
+
+    <p class="st-status" id="message">Connecting to NBA API…</p>
+
+
+    <!-- ============ FOOTER ============ -->
+
+    <footer class="st-foot">
+        <span>SOURCE · BALLDONTLIE API</span>
+        <span>COURT + RIG RENDERED IN SVG/CSS</span>
+    </footer>
+
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
