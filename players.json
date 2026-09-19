@@ -5,7 +5,7 @@
         "last_name": "Achiuwa",
         "position": "F",
         "jersey_number": "9",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Memphis",
         "team": {
             "full_name": "Sacramento Kings",
@@ -18,7 +18,7 @@
         "last_name": "Adams",
         "position": "C",
         "jersey_number": "12",
-        "draft_year": "2013.0",
+        "draft_year": 2013,
         "college": "Pittsburgh",
         "team": {
             "full_name": "Houston Rockets",
@@ -31,7 +31,7 @@
         "last_name": "Adebayo",
         "position": "C-F",
         "jersey_number": "13",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Kentucky",
         "team": {
             "full_name": "Miami Heat",
@@ -44,7 +44,7 @@
         "last_name": "Agbaji",
         "position": "G",
         "jersey_number": "30",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Kansas",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -57,7 +57,7 @@
         "last_name": "Aldama",
         "position": "F-C",
         "jersey_number": "7",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Loyola-Maryland",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -83,7 +83,7 @@
         "last_name": "Alexander-Walker",
         "position": "G",
         "jersey_number": "7",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Virginia Tech",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -96,7 +96,7 @@
         "last_name": "Allen",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Duke",
         "team": {
             "full_name": "Phoenix Suns",
@@ -109,7 +109,7 @@
         "last_name": "Allen",
         "position": "C",
         "jersey_number": "31",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Texas",
         "team": {
             "full_name": "Cleveland Cavaliers",
@@ -135,7 +135,7 @@
         "last_name": "Anderson",
         "position": "F-G",
         "jersey_number": "12",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "UCLA",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -161,7 +161,7 @@
         "last_name": "Antetokounmpo",
         "position": "F",
         "jersey_number": "34",
-        "draft_year": "2013.0",
+        "draft_year": 2013,
         "college": "Filathlitikos",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -174,7 +174,7 @@
         "last_name": "Antetokounmpo",
         "position": "F",
         "jersey_number": "43",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Panathinaikos",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -187,7 +187,7 @@
         "last_name": "Anunoby",
         "position": "F-G",
         "jersey_number": "8",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Indiana",
         "team": {
             "full_name": "New York Knicks",
@@ -200,7 +200,7 @@
         "last_name": "Avdija",
         "position": "F",
         "jersey_number": "8",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Maccabi Tel Aviv",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -213,7 +213,7 @@
         "last_name": "Ayton",
         "position": "C",
         "jersey_number": "5",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Arizona",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -226,7 +226,7 @@
         "last_name": "Bagley III",
         "position": "F",
         "jersey_number": "35",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Duke",
         "team": {
             "full_name": "Dallas Mavericks",
@@ -239,7 +239,7 @@
         "last_name": "Bailey",
         "position": "F",
         "jersey_number": "19",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Rutgers",
         "team": {
             "full_name": "Utah Jazz",
@@ -252,7 +252,7 @@
         "last_name": "Baldwin Jr.",
         "position": "F",
         "jersey_number": "23",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Wisconsin-Milwaukee",
         "team": {
             "full_name": "Sacramento Kings",
@@ -265,7 +265,7 @@
         "last_name": "Ball",
         "position": "G",
         "jersey_number": "1",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Illawarra",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -278,7 +278,7 @@
         "last_name": "Banchero",
         "position": "F",
         "jersey_number": "5",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Duke",
         "team": {
             "full_name": "Orlando Magic",
@@ -291,7 +291,7 @@
         "last_name": "Bane",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "TCU",
         "team": {
             "full_name": "Orlando Magic",
@@ -304,7 +304,7 @@
         "last_name": "Banton",
         "position": "F",
         "jersey_number": "45",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Nebraska",
         "team": {
             "full_name": "Boston Celtics",
@@ -330,7 +330,7 @@
         "last_name": "Barnes",
         "position": "F",
         "jersey_number": "40",
-        "draft_year": "2012.0",
+        "draft_year": 2012,
         "college": "North Carolina",
         "team": {
             "full_name": "San Antonio Spurs",
@@ -343,7 +343,7 @@
         "last_name": "Barnes",
         "position": "F-G",
         "jersey_number": "4",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Florida State",
         "team": {
             "full_name": "Toronto Raptors",
@@ -356,7 +356,7 @@
         "last_name": "Barnhizer",
         "position": "G",
         "jersey_number": "23",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Northwestern",
         "team": {
             "full_name": "Oklahoma City Thunder",
@@ -369,7 +369,7 @@
         "last_name": "Barrett",
         "position": "F-G",
         "jersey_number": "9",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Duke",
         "team": {
             "full_name": "Toronto Raptors",
@@ -382,7 +382,7 @@
         "last_name": "Bassey",
         "position": "C-F",
         "jersey_number": "28",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Western Kentucky",
         "team": {
             "full_name": "Golden State Warriors",
@@ -408,7 +408,7 @@
         "last_name": "Batum",
         "position": "G-F",
         "jersey_number": "33",
-        "draft_year": "2008.0",
+        "draft_year": 2008,
         "college": "Le Mans",
         "team": {
             "full_name": "LA Clippers",
@@ -421,7 +421,7 @@
         "last_name": "Beal",
         "position": "G",
         "jersey_number": "0",
-        "draft_year": "2012.0",
+        "draft_year": 2012,
         "college": "Florida",
         "team": {
             "full_name": "LA Clippers",
@@ -434,7 +434,7 @@
         "last_name": "Beauchamp",
         "position": "F",
         "jersey_number": "16",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "NBA G League Ignite",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -447,7 +447,7 @@
         "last_name": "Beringer",
         "position": "F",
         "jersey_number": "19",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Cedevita Olimpija (Slovenia)",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -460,7 +460,7 @@
         "last_name": "Bey",
         "position": "G-F",
         "jersey_number": "41",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Villanova",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -473,7 +473,7 @@
         "last_name": "Bitadze",
         "position": "C-F",
         "jersey_number": "35",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Mega Basket",
         "team": {
             "full_name": "Orlando Magic",
@@ -486,7 +486,7 @@
         "last_name": "Biyombo",
         "position": "C",
         "jersey_number": "18",
-        "draft_year": "2011.0",
+        "draft_year": 2011,
         "college": "Baloncesto Fuenlabrada",
         "team": {
             "full_name": "San Antonio Spurs",
@@ -499,7 +499,7 @@
         "last_name": "Black",
         "position": "G",
         "jersey_number": "0",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Arkansas",
         "team": {
             "full_name": "Orlando Magic",
@@ -525,7 +525,7 @@
         "last_name": "Bogdanovi\u0107",
         "position": "G",
         "jersey_number": "7",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Fenerbahce",
         "team": {
             "full_name": "LA Clippers",
@@ -538,7 +538,7 @@
         "last_name": "Bona",
         "position": "F",
         "jersey_number": "30",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "UCLA",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -551,7 +551,7 @@
         "last_name": "Booker",
         "position": "G",
         "jersey_number": "1",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "Kentucky",
         "team": {
             "full_name": "Phoenix Suns",
@@ -577,7 +577,7 @@
         "last_name": "Bradley",
         "position": "C-F",
         "jersey_number": "13",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "North Carolina",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -590,7 +590,7 @@
         "last_name": "Braun",
         "position": "G",
         "jersey_number": "0",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Kansas",
         "team": {
             "full_name": "Denver Nuggets",
@@ -603,7 +603,7 @@
         "last_name": "Brea",
         "position": "G",
         "jersey_number": "14",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Kentucky",
         "team": {
             "full_name": "Phoenix Suns",
@@ -616,7 +616,7 @@
         "last_name": "Bridges",
         "position": "G-F",
         "jersey_number": "25",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Villanova",
         "team": {
             "full_name": "New York Knicks",
@@ -629,7 +629,7 @@
         "last_name": "Bridges",
         "position": "F",
         "jersey_number": "0",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Michigan State",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -642,7 +642,7 @@
         "last_name": "Brooks",
         "position": "G-F",
         "jersey_number": "3",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Oregon",
         "team": {
             "full_name": "Phoenix Suns",
@@ -655,7 +655,7 @@
         "last_name": "Broome",
         "position": "F",
         "jersey_number": "22",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Auburn",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -668,7 +668,7 @@
         "last_name": "Brown",
         "position": "G-F",
         "jersey_number": "11",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Miami",
         "team": {
             "full_name": "Denver Nuggets",
@@ -681,7 +681,7 @@
         "last_name": "Brown",
         "position": "G-F",
         "jersey_number": "7",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "California",
         "team": {
             "full_name": "Boston Celtics",
@@ -694,7 +694,7 @@
         "last_name": "Brown",
         "position": "F",
         "jersey_number": "24",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Missouri",
         "team": {
             "full_name": "Indiana Pacers",
@@ -707,7 +707,7 @@
         "last_name": "Brunson",
         "position": "G",
         "jersey_number": "11",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Villanova",
         "team": {
             "full_name": "New York Knicks",
@@ -720,7 +720,7 @@
         "last_name": "Bryant",
         "position": "F",
         "jersey_number": "11",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Arizona",
         "team": {
             "full_name": "San Antonio Spurs",
@@ -733,7 +733,7 @@
         "last_name": "Bryant",
         "position": "C-F",
         "jersey_number": "3",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Indiana",
         "team": {
             "full_name": "Cleveland Cavaliers",
@@ -746,7 +746,7 @@
         "last_name": "Butler III",
         "position": "F",
         "jersey_number": "10",
-        "draft_year": "2011.0",
+        "draft_year": 2011,
         "college": "Marquette",
         "team": {
             "full_name": "Golden State Warriors",
@@ -759,7 +759,7 @@
         "last_name": "Buzelis",
         "position": "F",
         "jersey_number": "14",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "NBA G League Ignite",
         "team": {
             "full_name": "Chicago Bulls",
@@ -785,7 +785,7 @@
         "last_name": "Caldwell-Pope",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2013.0",
+        "draft_year": 2013,
         "college": "Georgia",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -798,7 +798,7 @@
         "last_name": "Camara",
         "position": "F",
         "jersey_number": "33",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Dayton",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -811,7 +811,7 @@
         "last_name": "Capela",
         "position": "C",
         "jersey_number": "30",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Elan Chalon",
         "team": {
             "full_name": "Houston Rockets",
@@ -850,7 +850,7 @@
         "last_name": "Carrington",
         "position": "G",
         "jersey_number": "7",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Pittsburgh",
         "team": {
             "full_name": "Washington Wizards",
@@ -863,7 +863,7 @@
         "last_name": "Carter",
         "position": "G",
         "jersey_number": "22",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Providence",
         "team": {
             "full_name": "Sacramento Kings",
@@ -876,7 +876,7 @@
         "last_name": "Carter",
         "position": "G",
         "jersey_number": "2",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "West Virginia",
         "team": {
             "full_name": "Orlando Magic",
@@ -889,7 +889,7 @@
         "last_name": "Carter Jr.",
         "position": "C-F",
         "jersey_number": "34",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Duke",
         "team": {
             "full_name": "Orlando Magic",
@@ -915,7 +915,7 @@
         "last_name": "Castle",
         "position": "G",
         "jersey_number": "5",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Connecticut",
         "team": {
             "full_name": "San Antonio Spurs",
@@ -967,7 +967,7 @@
         "last_name": "Christie",
         "position": "G",
         "jersey_number": "12",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Minnesota",
         "team": {
             "full_name": "LA Clippers",
@@ -980,7 +980,7 @@
         "last_name": "Christie",
         "position": "G",
         "jersey_number": "00",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Michigan State",
         "team": {
             "full_name": "Dallas Mavericks",
@@ -1006,7 +1006,7 @@
         "last_name": "Cissoko",
         "position": "G",
         "jersey_number": "91",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "NBA G League Ignite",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -1019,7 +1019,7 @@
         "last_name": "Clark",
         "position": "G",
         "jersey_number": "22",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "UCLA",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -1032,7 +1032,7 @@
         "last_name": "Clarke",
         "position": "F",
         "jersey_number": "15",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Gonzaga",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -1045,7 +1045,7 @@
         "last_name": "Clarkson",
         "position": "G",
         "jersey_number": "00",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Missouri",
         "team": {
             "full_name": "New York Knicks",
@@ -1058,7 +1058,7 @@
         "last_name": "Claxton",
         "position": "C",
         "jersey_number": "33",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Georgia",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -1071,7 +1071,7 @@
         "last_name": "Clayton Jr.",
         "position": "G",
         "jersey_number": "4",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Florida",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -1084,7 +1084,7 @@
         "last_name": "Clifford",
         "position": "G",
         "jersey_number": "5",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Colorado State",
         "team": {
             "full_name": "Sacramento Kings",
@@ -1097,7 +1097,7 @@
         "last_name": "Clingan",
         "position": "C",
         "jersey_number": "23",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Connecticut",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -1110,7 +1110,7 @@
         "last_name": "Clowney",
         "position": "F-C",
         "jersey_number": "21",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Alabama",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -1136,7 +1136,7 @@
         "last_name": "Collier",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Southern California",
         "team": {
             "full_name": "Utah Jazz",
@@ -1149,7 +1149,7 @@
         "last_name": "Collins",
         "position": "F-C",
         "jersey_number": "20",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Wake Forest",
         "team": {
             "full_name": "LA Clippers",
@@ -1162,7 +1162,7 @@
         "last_name": "Collins",
         "position": "F-C",
         "jersey_number": "12",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Gonzaga",
         "team": {
             "full_name": "Chicago Bulls",
@@ -1175,7 +1175,7 @@
         "last_name": "Conley",
         "position": "G",
         "jersey_number": "10",
-        "draft_year": "2007.0",
+        "draft_year": 2007,
         "college": "Ohio State",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -1188,7 +1188,7 @@
         "last_name": "Connaughton",
         "position": "G",
         "jersey_number": "21",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "Notre Dame",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -1201,7 +1201,7 @@
         "last_name": "Cooper",
         "position": "G",
         "jersey_number": "13",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Auburn",
         "team": {
             "full_name": "Washington Wizards",
@@ -1214,7 +1214,7 @@
         "last_name": "Coulibaly",
         "position": "G",
         "jersey_number": "0",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Metropolitans 92",
         "team": {
             "full_name": "Washington Wizards",
@@ -1227,7 +1227,7 @@
         "last_name": "Coward",
         "position": "G",
         "jersey_number": "23",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Washington State",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -1266,7 +1266,7 @@
         "last_name": "Cunningham",
         "position": "G",
         "jersey_number": "2",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Oklahoma State",
         "team": {
             "full_name": "Detroit Pistons",
@@ -1292,7 +1292,7 @@
         "last_name": "Curry",
         "position": "G",
         "jersey_number": "30",
-        "draft_year": "2009.0",
+        "draft_year": 2009,
         "college": "Davidson",
         "team": {
             "full_name": "Golden State Warriors",
@@ -1305,7 +1305,7 @@
         "last_name": "Dadiet",
         "position": "F",
         "jersey_number": "4",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Ratiopharm Ulm",
         "team": {
             "full_name": "New York Knicks",
@@ -1318,7 +1318,7 @@
         "last_name": "Daniels",
         "position": "G",
         "jersey_number": "5",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "NBA G League Ignite",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -1331,7 +1331,7 @@
         "last_name": "Davis",
         "position": "F-C",
         "jersey_number": "23",
-        "draft_year": "2012.0",
+        "draft_year": 2012,
         "college": "Kentucky",
         "team": {
             "full_name": "Washington Wizards",
@@ -1344,7 +1344,7 @@
         "last_name": "Davison",
         "position": "G",
         "jersey_number": "4",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Alabama",
         "team": {
             "full_name": "Houston Rockets",
@@ -1357,7 +1357,7 @@
         "last_name": "DeRozan",
         "position": "G-F",
         "jersey_number": "10",
-        "draft_year": "2009.0",
+        "draft_year": 2009,
         "college": "Southern California",
         "team": {
             "full_name": "Sacramento Kings",
@@ -1383,7 +1383,7 @@
         "last_name": "DiVincenzo",
         "position": "G",
         "jersey_number": "0",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Villanova",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -1396,7 +1396,7 @@
         "last_name": "Diabat\u00e9",
         "position": "F",
         "jersey_number": "14",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Michigan",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -1409,7 +1409,7 @@
         "last_name": "Diawara",
         "position": "F",
         "jersey_number": "51",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Paris Basketball",
         "team": {
             "full_name": "New York Knicks",
@@ -1422,7 +1422,7 @@
         "last_name": "Dick",
         "position": "G-F",
         "jersey_number": "1",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Kansas",
         "team": {
             "full_name": "Toronto Raptors",
@@ -1448,7 +1448,7 @@
         "last_name": "Dieng",
         "position": "F",
         "jersey_number": "21",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "New Zealand Breakers",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -1461,7 +1461,7 @@
         "last_name": "Dillingham",
         "position": "G",
         "jersey_number": "7",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Kentucky",
         "team": {
             "full_name": "Chicago Bulls",
@@ -1474,7 +1474,7 @@
         "last_name": "Don\u010di\u0107",
         "position": "F-G",
         "jersey_number": "77",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Real Madrid",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -1500,7 +1500,7 @@
         "last_name": "Dosunmu",
         "position": "G",
         "jersey_number": "13",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Illinois",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -1513,7 +1513,7 @@
         "last_name": "Drummond",
         "position": "C",
         "jersey_number": "1",
-        "draft_year": "2012.0",
+        "draft_year": 2012,
         "college": "Connecticut",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -1526,7 +1526,7 @@
         "last_name": "Dunn",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "Providence",
         "team": {
             "full_name": "LA Clippers",
@@ -1539,7 +1539,7 @@
         "last_name": "Dunn",
         "position": "F",
         "jersey_number": "0",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Virginia",
         "team": {
             "full_name": "Phoenix Suns",
@@ -1552,7 +1552,7 @@
         "last_name": "Durant",
         "position": "F",
         "jersey_number": "7",
-        "draft_year": "2007.0",
+        "draft_year": 2007,
         "college": "Texas",
         "team": {
             "full_name": "Houston Rockets",
@@ -1565,7 +1565,7 @@
         "last_name": "Duren",
         "position": "C",
         "jersey_number": "0",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Memphis",
         "team": {
             "full_name": "Detroit Pistons",
@@ -1578,7 +1578,7 @@
         "last_name": "D\u00ebmin",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Brigham Young",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -1591,7 +1591,7 @@
         "last_name": "Eason",
         "position": "F",
         "jersey_number": "17",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Louisiana State",
         "team": {
             "full_name": "Houston Rockets",
@@ -1604,7 +1604,7 @@
         "last_name": "Edey",
         "position": "C",
         "jersey_number": "14",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Purdue",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -1617,7 +1617,7 @@
         "last_name": "Edgecombe",
         "position": "G",
         "jersey_number": "77",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Baylor",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -1630,7 +1630,7 @@
         "last_name": "Edwards",
         "position": "G",
         "jersey_number": "5",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Georgia",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -1669,7 +1669,7 @@
         "last_name": "Embiid",
         "position": "C-F",
         "jersey_number": "21",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Kansas",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -1695,7 +1695,7 @@
         "last_name": "Essengue",
         "position": "F",
         "jersey_number": "24",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Ratiopharm Ulm (Germany)",
         "team": {
             "full_name": "Chicago Bulls",
@@ -1747,7 +1747,7 @@
         "last_name": "Fears",
         "position": "G",
         "jersey_number": "0",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Oklahoma",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -1760,7 +1760,7 @@
         "last_name": "Filipowski",
         "position": "C",
         "jersey_number": "22",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Duke",
         "team": {
             "full_name": "Utah Jazz",
@@ -1786,7 +1786,7 @@
         "last_name": "Flagg",
         "position": "F",
         "jersey_number": "32",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Duke",
         "team": {
             "full_name": "Dallas Mavericks",
@@ -1799,7 +1799,7 @@
         "last_name": "Fleming",
         "position": "F",
         "jersey_number": "20",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "St. Joseph's (PA)",
         "team": {
             "full_name": "Phoenix Suns",
@@ -1825,7 +1825,7 @@
         "last_name": "Fox",
         "position": "G",
         "jersey_number": "4",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Kentucky",
         "team": {
             "full_name": "San Antonio Spurs",
@@ -1838,7 +1838,7 @@
         "last_name": "Freeman",
         "position": "F",
         "jersey_number": "25",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Akron",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -1851,7 +1851,7 @@
         "last_name": "Furphy",
         "position": "G",
         "jersey_number": "12",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Kansas",
         "team": {
             "full_name": "Indiana Pacers",
@@ -1864,7 +1864,7 @@
         "last_name": "Gafford",
         "position": "F-C",
         "jersey_number": "21",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Arkansas",
         "team": {
             "full_name": "Dallas Mavericks",
@@ -1890,7 +1890,7 @@
         "last_name": "Garland",
         "position": "G",
         "jersey_number": "10",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Vanderbilt",
         "team": {
             "full_name": "LA Clippers",
@@ -1903,7 +1903,7 @@
         "last_name": "Garza",
         "position": "C",
         "jersey_number": "52",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Iowa",
         "team": {
             "full_name": "Boston Celtics",
@@ -1916,7 +1916,7 @@
         "last_name": "George",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Baylor",
         "team": {
             "full_name": "Utah Jazz",
@@ -1929,7 +1929,7 @@
         "last_name": "George",
         "position": "F",
         "jersey_number": "18",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Miami",
         "team": {
             "full_name": "Washington Wizards",
@@ -1942,7 +1942,7 @@
         "last_name": "George",
         "position": "F",
         "jersey_number": "8",
-        "draft_year": "2010.0",
+        "draft_year": 2010,
         "college": "Fresno State",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -1955,7 +1955,7 @@
         "last_name": "Gibson",
         "position": "F",
         "jersey_number": "67",
-        "draft_year": "2009.0",
+        "draft_year": 2009,
         "college": "USC",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -1968,7 +1968,7 @@
         "last_name": "Giddey",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "NBA Global Academy",
         "team": {
             "full_name": "Chicago Bulls",
@@ -1994,7 +1994,7 @@
         "last_name": "Gilgeous-Alexander",
         "position": "G",
         "jersey_number": "2",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Kentucky",
         "team": {
             "full_name": "Oklahoma City Thunder",
@@ -2033,7 +2033,7 @@
         "last_name": "Gobert",
         "position": "C",
         "jersey_number": "27",
-        "draft_year": "2013.0",
+        "draft_year": 2013,
         "college": "Cholet",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -2059,7 +2059,7 @@
         "last_name": "Gonz\u00e1lez",
         "position": "G",
         "jersey_number": "28",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Spain",
         "team": {
             "full_name": "Boston Celtics",
@@ -2085,7 +2085,7 @@
         "last_name": "Gordon",
         "position": "F",
         "jersey_number": "32",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Arizona",
         "team": {
             "full_name": "Denver Nuggets",
@@ -2098,7 +2098,7 @@
         "last_name": "Grant",
         "position": "F",
         "jersey_number": "9",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Syracuse",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -2137,7 +2137,7 @@
         "last_name": "Green",
         "position": "F",
         "jersey_number": "23",
-        "draft_year": "2012.0",
+        "draft_year": 2012,
         "college": "Michigan State",
         "team": {
             "full_name": "Golden State Warriors",
@@ -2150,7 +2150,7 @@
         "last_name": "Green",
         "position": "G",
         "jersey_number": "4",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "NBA G League Ignite",
         "team": {
             "full_name": "Phoenix Suns",
@@ -2176,7 +2176,7 @@
         "last_name": "Green",
         "position": "F",
         "jersey_number": "32",
-        "draft_year": "2007.0",
+        "draft_year": 2007,
         "college": "Georgetown",
         "team": {
             "full_name": "Houston Rockets",
@@ -2189,7 +2189,7 @@
         "last_name": "Green",
         "position": "G",
         "jersey_number": "10",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Arizona",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -2202,7 +2202,7 @@
         "last_name": "Grimes",
         "position": "G",
         "jersey_number": "5",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Houston",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -2228,7 +2228,7 @@
         "last_name": "Gueye",
         "position": "F",
         "jersey_number": "18",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Washington State",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -2241,7 +2241,7 @@
         "last_name": "Hachimura",
         "position": "F",
         "jersey_number": "28",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Gonzaga",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -2267,7 +2267,7 @@
         "last_name": "Hardaway Jr.",
         "position": "G-F",
         "jersey_number": "10",
-        "draft_year": "2013.0",
+        "draft_year": 2013,
         "college": "Michigan",
         "team": {
             "full_name": "Denver Nuggets",
@@ -2280,7 +2280,7 @@
         "last_name": "Harden",
         "position": "G",
         "jersey_number": "1",
-        "draft_year": "2009.0",
+        "draft_year": 2009,
         "college": "Arizona State",
         "team": {
             "full_name": "Cleveland Cavaliers",
@@ -2293,7 +2293,7 @@
         "last_name": "Hardy",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "NBA G League Ignite",
         "team": {
             "full_name": "Washington Wizards",
@@ -2319,7 +2319,7 @@
         "last_name": "Harper",
         "position": "G",
         "jersey_number": "2",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Rutgers",
         "team": {
             "full_name": "San Antonio Spurs",
@@ -2345,7 +2345,7 @@
         "last_name": "Harris",
         "position": "G",
         "jersey_number": "11",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Michigan State",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -2358,7 +2358,7 @@
         "last_name": "Harris",
         "position": "F",
         "jersey_number": "12",
-        "draft_year": "2011.0",
+        "draft_year": 2011,
         "college": "Tennessee",
         "team": {
             "full_name": "Detroit Pistons",
@@ -2371,7 +2371,7 @@
         "last_name": "Hart",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Villanova",
         "team": {
             "full_name": "New York Knicks",
@@ -2384,7 +2384,7 @@
         "last_name": "Hartenstein",
         "position": "C-F",
         "jersey_number": "55",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Zalgiris",
         "team": {
             "full_name": "Oklahoma City Thunder",
@@ -2410,7 +2410,7 @@
         "last_name": "Hawkins",
         "position": "G",
         "jersey_number": "24",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Connecticut",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -2423,7 +2423,7 @@
         "last_name": "Hayes",
         "position": "C-F",
         "jersey_number": "11",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Texas",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -2436,7 +2436,7 @@
         "last_name": "Hayes",
         "position": "G",
         "jersey_number": "7",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Ratiopharm Ulm",
         "team": {
             "full_name": "Sacramento Kings",
@@ -2449,7 +2449,7 @@
         "last_name": "Henderson",
         "position": "G",
         "jersey_number": "00",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "NBA G League Ignite",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -2462,7 +2462,7 @@
         "last_name": "Hendricks",
         "position": "F",
         "jersey_number": "22",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Central Florida",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -2488,7 +2488,7 @@
         "last_name": "Herro",
         "position": "G",
         "jersey_number": "14",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Kentucky",
         "team": {
             "full_name": "Miami Heat",
@@ -2501,7 +2501,7 @@
         "last_name": "Hield",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "Oklahoma",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -2514,7 +2514,7 @@
         "last_name": "Highsmith",
         "position": "F",
         "jersey_number": "7",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Wheeling Jesuit",
         "team": {
             "full_name": "Phoenix Suns",
@@ -2540,7 +2540,7 @@
         "last_name": "Holiday",
         "position": "G",
         "jersey_number": "0",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "UCLA",
         "team": {
             "full_name": "Houston Rockets",
@@ -2553,7 +2553,7 @@
         "last_name": "Holiday",
         "position": "G",
         "jersey_number": "5",
-        "draft_year": "2009.0",
+        "draft_year": 2009,
         "college": "UCLA",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -2566,7 +2566,7 @@
         "last_name": "Holland II",
         "position": "F",
         "jersey_number": "5",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "NBA G League Ignite",
         "team": {
             "full_name": "Detroit Pistons",
@@ -2579,7 +2579,7 @@
         "last_name": "Holmes II",
         "position": "F",
         "jersey_number": "14",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Dayton",
         "team": {
             "full_name": "Denver Nuggets",
@@ -2592,7 +2592,7 @@
         "last_name": "Holmgren",
         "position": "C-F",
         "jersey_number": "7",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Gonzaga",
         "team": {
             "full_name": "Oklahoma City Thunder",
@@ -2605,7 +2605,7 @@
         "last_name": "Horford",
         "position": "C-F",
         "jersey_number": "20",
-        "draft_year": "2007.0",
+        "draft_year": 2007,
         "college": "Florida",
         "team": {
             "full_name": "Golden State Warriors",
@@ -2618,7 +2618,7 @@
         "last_name": "Howard",
         "position": "G",
         "jersey_number": "13",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Michigan",
         "team": {
             "full_name": "Orlando Magic",
@@ -2631,7 +2631,7 @@
         "last_name": "Huerter",
         "position": "G-F",
         "jersey_number": "27",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Maryland",
         "team": {
             "full_name": "Detroit Pistons",
@@ -2657,7 +2657,7 @@
         "last_name": "Hukporti",
         "position": "C",
         "jersey_number": "55",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Riesen Ludwigsburg",
         "team": {
             "full_name": "New York Knicks",
@@ -2670,7 +2670,7 @@
         "last_name": "Hunter",
         "position": "F-G",
         "jersey_number": "15",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Virginia",
         "team": {
             "full_name": "Sacramento Kings",
@@ -2696,7 +2696,7 @@
         "last_name": "Hyland",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Virginia Commonwealth",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -2709,7 +2709,7 @@
         "last_name": "Ighodaro",
         "position": "F",
         "jersey_number": "11",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Marquette",
         "team": {
             "full_name": "Phoenix Suns",
@@ -2735,7 +2735,7 @@
         "last_name": "Ingram",
         "position": "F",
         "jersey_number": "3",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "Duke",
         "team": {
             "full_name": "Toronto Raptors",
@@ -2748,7 +2748,7 @@
         "last_name": "Ingram",
         "position": "F",
         "jersey_number": "55",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "North Carolina",
         "team": {
             "full_name": "San Antonio Spurs",
@@ -2761,7 +2761,7 @@
         "last_name": "Isaac",
         "position": "F",
         "jersey_number": "1",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Florida State",
         "team": {
             "full_name": "Orlando Magic",
@@ -2774,7 +2774,7 @@
         "last_name": "Jackson",
         "position": "F",
         "jersey_number": "45",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "South Carolina",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -2787,7 +2787,7 @@
         "last_name": "Jackson",
         "position": "F",
         "jersey_number": "23",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Kentucky",
         "team": {
             "full_name": "LA Clippers",
@@ -2813,7 +2813,7 @@
         "last_name": "Jackson Jr.",
         "position": "G",
         "jersey_number": "44",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Connecticut",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -2826,7 +2826,7 @@
         "last_name": "Jackson Jr.",
         "position": "F-C",
         "jersey_number": "20",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Michigan State",
         "team": {
             "full_name": "Utah Jazz",
@@ -2839,7 +2839,7 @@
         "last_name": "Jackson-Davis",
         "position": "F",
         "jersey_number": "32",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Indiana",
         "team": {
             "full_name": "Toronto Raptors",
@@ -2852,7 +2852,7 @@
         "last_name": "Jaku\u010dionis",
         "position": "G",
         "jersey_number": "25",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Illinois-Urbana-Champaign",
         "team": {
             "full_name": "Miami Heat",
@@ -2865,7 +2865,7 @@
         "last_name": "James",
         "position": "G",
         "jersey_number": "9",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Southern California",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -2878,7 +2878,7 @@
         "last_name": "James",
         "position": "F",
         "jersey_number": "23",
-        "draft_year": "2003.0",
+        "draft_year": 2003,
         "college": "St. Vincent-St. Mary HS (OH)",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -2891,7 +2891,7 @@
         "last_name": "James",
         "position": "G",
         "jersey_number": "4",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Duke",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -2904,7 +2904,7 @@
         "last_name": "Jaquez Jr.",
         "position": "G",
         "jersey_number": "11",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "UCLA",
         "team": {
             "full_name": "Miami Heat",
@@ -2943,7 +2943,7 @@
         "last_name": "Jerome",
         "position": "G-F",
         "jersey_number": "2",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Virginia",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -2956,7 +2956,7 @@
         "last_name": "Joe",
         "position": "G",
         "jersey_number": "11",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Arkansas",
         "team": {
             "full_name": "Oklahoma City Thunder",
@@ -2969,7 +2969,7 @@
         "last_name": "Johnson",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Illawarra",
         "team": {
             "full_name": "Dallas Mavericks",
@@ -2982,7 +2982,7 @@
         "last_name": "Johnson",
         "position": "F",
         "jersey_number": "23",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "North Carolina",
         "team": {
             "full_name": "Denver Nuggets",
@@ -3008,7 +3008,7 @@
         "last_name": "Johnson",
         "position": "F",
         "jersey_number": "1",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Duke",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -3021,7 +3021,7 @@
         "last_name": "Johnson",
         "position": "F-G",
         "jersey_number": "3",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Kentucky",
         "team": {
             "full_name": "San Antonio Spurs",
@@ -3047,7 +3047,7 @@
         "last_name": "Johnson",
         "position": "G",
         "jersey_number": "12",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Texas",
         "team": {
             "full_name": "Washington Wizards",
@@ -3060,7 +3060,7 @@
         "last_name": "Joki\u0107",
         "position": "C",
         "jersey_number": "15",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Mega Basket",
         "team": {
             "full_name": "Denver Nuggets",
@@ -3086,7 +3086,7 @@
         "last_name": "Jones",
         "position": "F",
         "jersey_number": "",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Weber State",
         "team": {
             "full_name": "New York Knicks",
@@ -3099,7 +3099,7 @@
         "last_name": "Jones",
         "position": "F",
         "jersey_number": "2",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Alabama",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -3125,7 +3125,7 @@
         "last_name": "Jones",
         "position": "G",
         "jersey_number": "7",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Marquette",
         "team": {
             "full_name": "Indiana Pacers",
@@ -3151,7 +3151,7 @@
         "last_name": "Jones",
         "position": "G",
         "jersey_number": "30",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Duke",
         "team": {
             "full_name": "Chicago Bulls",
@@ -3164,7 +3164,7 @@
         "last_name": "Jones",
         "position": "G",
         "jersey_number": "5",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "Duke",
         "team": {
             "full_name": "Denver Nuggets",
@@ -3203,7 +3203,7 @@
         "last_name": "Jordan",
         "position": "C",
         "jersey_number": "9",
-        "draft_year": "2008.0",
+        "draft_year": 2008,
         "college": "Texas A&M",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -3216,7 +3216,7 @@
         "last_name": "Jovi\u0107",
         "position": "F",
         "jersey_number": "5",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Mega Basket",
         "team": {
             "full_name": "Miami Heat",
@@ -3229,7 +3229,7 @@
         "last_name": "Kalkbrenner",
         "position": "C",
         "jersey_number": "11",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Creighton",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -3255,7 +3255,7 @@
         "last_name": "Keels",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Duke",
         "team": {
             "full_name": "Miami Heat",
@@ -3268,7 +3268,7 @@
         "last_name": "Kennard",
         "position": "G",
         "jersey_number": "10",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Duke",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -3294,7 +3294,7 @@
         "last_name": "Kessler",
         "position": "C",
         "jersey_number": "24",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Auburn",
         "team": {
             "full_name": "Utah Jazz",
@@ -3307,7 +3307,7 @@
         "last_name": "Kispert",
         "position": "F",
         "jersey_number": "24",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Gonzaga",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -3333,7 +3333,7 @@
         "last_name": "Knecht",
         "position": "F",
         "jersey_number": "4",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Tennessee",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -3346,7 +3346,7 @@
         "last_name": "Knueppel",
         "position": "G-F",
         "jersey_number": "7",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Duke",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -3359,7 +3359,7 @@
         "last_name": "Kolek",
         "position": "G",
         "jersey_number": "13",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Marquette",
         "team": {
             "full_name": "New York Knicks",
@@ -3372,7 +3372,7 @@
         "last_name": "Koloko",
         "position": "C",
         "jersey_number": "10",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Arizona",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -3411,7 +3411,7 @@
         "last_name": "Krej\u010d\u00ed",
         "position": "G",
         "jersey_number": "27",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Zaragoza",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -3424,7 +3424,7 @@
         "last_name": "Kuminga",
         "position": "F",
         "jersey_number": "0",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "NBA G League Ignite",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -3437,7 +3437,7 @@
         "last_name": "Kuzma",
         "position": "F",
         "jersey_number": "18",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Utah",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -3450,7 +3450,7 @@
         "last_name": "LaRavia",
         "position": "F",
         "jersey_number": "12",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Wake Forest",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -3463,7 +3463,7 @@
         "last_name": "LaVine",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "UCLA",
         "team": {
             "full_name": "Sacramento Kings",
@@ -3489,7 +3489,7 @@
         "last_name": "Lanier",
         "position": "G",
         "jersey_number": "20",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Tennessee",
         "team": {
             "full_name": "Detroit Pistons",
@@ -3502,7 +3502,7 @@
         "last_name": "Larsson",
         "position": "G",
         "jersey_number": "9",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Arizona",
         "team": {
             "full_name": "Miami Heat",
@@ -3528,7 +3528,7 @@
         "last_name": "LeVert",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "Michigan",
         "team": {
             "full_name": "Detroit Pistons",
@@ -3541,7 +3541,7 @@
         "last_name": "Leonard",
         "position": "F",
         "jersey_number": "2",
-        "draft_year": "2011.0",
+        "draft_year": 2011,
         "college": "San Diego State",
         "team": {
             "full_name": "LA Clippers",
@@ -3567,7 +3567,7 @@
         "last_name": "Liddell",
         "position": "F",
         "jersey_number": "9",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Ohio State",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -3580,7 +3580,7 @@
         "last_name": "Lively II",
         "position": "C",
         "jersey_number": "2",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Duke",
         "team": {
             "full_name": "Dallas Mavericks",
@@ -3593,7 +3593,7 @@
         "last_name": "Livers",
         "position": "F",
         "jersey_number": "18",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Michigan",
         "team": {
             "full_name": "Phoenix Suns",
@@ -3606,7 +3606,7 @@
         "last_name": "Looney",
         "position": "F",
         "jersey_number": "55",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "UCLA",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -3619,7 +3619,7 @@
         "last_name": "Lopez",
         "position": "C",
         "jersey_number": "11",
-        "draft_year": "2008.0",
+        "draft_year": 2008,
         "college": "Stanford",
         "team": {
             "full_name": "LA Clippers",
@@ -3645,7 +3645,7 @@
         "last_name": "Love",
         "position": "F-C",
         "jersey_number": "42",
-        "draft_year": "2008.0",
+        "draft_year": 2008,
         "college": "UCLA",
         "team": {
             "full_name": "Utah Jazz",
@@ -3658,7 +3658,7 @@
         "last_name": "Lowry",
         "position": "G",
         "jersey_number": "7",
-        "draft_year": "2006.0",
+        "draft_year": 2006,
         "college": "Villanova",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -3671,7 +3671,7 @@
         "last_name": "Maluach",
         "position": "C",
         "jersey_number": "10",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Duke",
         "team": {
             "full_name": "Phoenix Suns",
@@ -3684,7 +3684,7 @@
         "last_name": "Mamukelashvili",
         "position": "F-C",
         "jersey_number": "54",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Seton Hall",
         "team": {
             "full_name": "Toronto Raptors",
@@ -3697,7 +3697,7 @@
         "last_name": "Mann",
         "position": "G-F",
         "jersey_number": "14",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Florida State",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -3710,7 +3710,7 @@
         "last_name": "Mann",
         "position": "G",
         "jersey_number": "23",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Florida",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -3723,7 +3723,7 @@
         "last_name": "Markkanen",
         "position": "F-C",
         "jersey_number": "23",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Arizona",
         "team": {
             "full_name": "Utah Jazz",
@@ -3749,7 +3749,7 @@
         "last_name": "Martin",
         "position": "G",
         "jersey_number": "55",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Florida",
         "team": {
             "full_name": "Toronto Raptors",
@@ -3775,7 +3775,7 @@
         "last_name": "Martin",
         "position": "F",
         "jersey_number": "23",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Connecticut",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -3788,7 +3788,7 @@
         "last_name": "Mashack",
         "position": "G",
         "jersey_number": null,
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Tennessee",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -3801,7 +3801,7 @@
         "last_name": "Mathurin",
         "position": "G-F",
         "jersey_number": "9",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Arizona",
         "team": {
             "full_name": "LA Clippers",
@@ -3814,7 +3814,7 @@
         "last_name": "Matkovi\u0107",
         "position": "F-C",
         "jersey_number": "17",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Mega Basket",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -3827,7 +3827,7 @@
         "last_name": "Maxey",
         "position": "G",
         "jersey_number": "0",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Kentucky",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -3866,7 +3866,7 @@
         "last_name": "McBride",
         "position": "G",
         "jersey_number": "2",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "West Virginia",
         "team": {
             "full_name": "New York Knicks",
@@ -3879,7 +3879,7 @@
         "last_name": "McCain",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Duke",
         "team": {
             "full_name": "Oklahoma City Thunder",
@@ -3905,7 +3905,7 @@
         "last_name": "McCollum",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2013.0",
+        "draft_year": 2013,
         "college": "Lehigh",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -3918,7 +3918,7 @@
         "last_name": "McConnell",
         "position": "G",
         "jersey_number": "9",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "Arizona",
         "team": {
             "full_name": "Indiana Pacers",
@@ -3931,7 +3931,7 @@
         "last_name": "McCullar Jr.",
         "position": "G",
         "jersey_number": "9",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Kansas",
         "team": {
             "full_name": "New York Knicks",
@@ -3944,7 +3944,7 @@
         "last_name": "McDaniels",
         "position": "F",
         "jersey_number": "3",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Washington",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -3957,7 +3957,7 @@
         "last_name": "McDermott",
         "position": "F",
         "jersey_number": "7",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Creighton",
         "team": {
             "full_name": "Sacramento Kings",
@@ -3970,7 +3970,7 @@
         "last_name": "McGowens",
         "position": "G",
         "jersey_number": "11",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Nebraska",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -3996,7 +3996,7 @@
         "last_name": "McNeeley",
         "position": "F",
         "jersey_number": "33",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Connecticut",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -4009,7 +4009,7 @@
         "last_name": "Melton",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Southern California",
         "team": {
             "full_name": "Golden State Warriors",
@@ -4022,7 +4022,7 @@
         "last_name": "Merrill",
         "position": "G",
         "jersey_number": "5",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Utah State",
         "team": {
             "full_name": "Cleveland Cavaliers",
@@ -4035,7 +4035,7 @@
         "last_name": "Middleton",
         "position": "F",
         "jersey_number": "20",
-        "draft_year": "2012.0",
+        "draft_year": 2012,
         "college": "Texas A&M",
         "team": {
             "full_name": "Dallas Mavericks",
@@ -4048,7 +4048,7 @@
         "last_name": "Miller",
         "position": "F",
         "jersey_number": "24",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Alabama",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -4074,7 +4074,7 @@
         "last_name": "Miller",
         "position": "G",
         "jersey_number": "22",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Miami",
         "team": {
             "full_name": "LA Clippers",
@@ -4087,7 +4087,7 @@
         "last_name": "Miller",
         "position": "F",
         "jersey_number": "11",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "NBA G League Ignite",
         "team": {
             "full_name": "Chicago Bulls",
@@ -4113,7 +4113,7 @@
         "last_name": "Minott",
         "position": "F",
         "jersey_number": "00",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Memphis",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -4126,7 +4126,7 @@
         "last_name": "Missi",
         "position": "C",
         "jersey_number": "21",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Baylor",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -4139,7 +4139,7 @@
         "last_name": "Mitchell",
         "position": "G",
         "jersey_number": "25",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "California-Santa Barbara",
         "team": {
             "full_name": "Oklahoma City Thunder",
@@ -4152,7 +4152,7 @@
         "last_name": "Mitchell",
         "position": "G",
         "jersey_number": "45",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Baylor",
         "team": {
             "full_name": "Miami Heat",
@@ -4165,7 +4165,7 @@
         "last_name": "Mitchell",
         "position": "G",
         "jersey_number": "45",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Louisville",
         "team": {
             "full_name": "Cleveland Cavaliers",
@@ -4178,7 +4178,7 @@
         "last_name": "Mobley",
         "position": "C",
         "jersey_number": "4",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Southern California",
         "team": {
             "full_name": "Cleveland Cavaliers",
@@ -4191,7 +4191,7 @@
         "last_name": "Mogbo",
         "position": "F",
         "jersey_number": "2",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "San Francisco",
         "team": {
             "full_name": "Toronto Raptors",
@@ -4204,7 +4204,7 @@
         "last_name": "Monk",
         "position": "G",
         "jersey_number": "0",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Kentucky",
         "team": {
             "full_name": "Sacramento Kings",
@@ -4217,7 +4217,7 @@
         "last_name": "Moody",
         "position": "G",
         "jersey_number": "4",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Arkansas",
         "team": {
             "full_name": "Golden State Warriors",
@@ -4230,7 +4230,7 @@
         "last_name": "Moore Jr.",
         "position": "G",
         "jersey_number": "14",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Duke",
         "team": {
             "full_name": "Detroit Pistons",
@@ -4256,7 +4256,7 @@
         "last_name": "Morant",
         "position": "G",
         "jersey_number": "12",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Murray State",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -4269,7 +4269,7 @@
         "last_name": "Murphy III",
         "position": "F",
         "jersey_number": "25",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Virginia",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -4282,7 +4282,7 @@
         "last_name": "Murray",
         "position": "G",
         "jersey_number": "5",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "Washington",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -4295,7 +4295,7 @@
         "last_name": "Murray",
         "position": "G",
         "jersey_number": "27",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "Kentucky",
         "team": {
             "full_name": "Denver Nuggets",
@@ -4308,7 +4308,7 @@
         "last_name": "Murray",
         "position": "F",
         "jersey_number": "13",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Iowa",
         "team": {
             "full_name": "Sacramento Kings",
@@ -4321,7 +4321,7 @@
         "last_name": "Murray",
         "position": "F",
         "jersey_number": "24",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Iowa",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -4334,7 +4334,7 @@
         "last_name": "Murray-Boyles",
         "position": "F",
         "jersey_number": "12",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "South Carolina",
         "team": {
             "full_name": "Toronto Raptors",
@@ -4347,7 +4347,7 @@
         "last_name": "Mykhailiuk",
         "position": "G-F",
         "jersey_number": "10",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Kansas",
         "team": {
             "full_name": "Utah Jazz",
@@ -4373,7 +4373,7 @@
         "last_name": "Nance Jr.",
         "position": "F-C",
         "jersey_number": "22",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "Wyoming",
         "team": {
             "full_name": "Cleveland Cavaliers",
@@ -4386,7 +4386,7 @@
         "last_name": "Nembhard",
         "position": "G-F",
         "jersey_number": "2",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Gonzaga",
         "team": {
             "full_name": "Indiana Pacers",
@@ -4412,7 +4412,7 @@
         "last_name": "Nesmith",
         "position": "G-F",
         "jersey_number": "23",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Vanderbilt",
         "team": {
             "full_name": "Indiana Pacers",
@@ -4425,7 +4425,7 @@
         "last_name": "Newell",
         "position": "F",
         "jersey_number": "14",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Georgia",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -4438,7 +4438,7 @@
         "last_name": "Newton",
         "position": "G",
         "jersey_number": "13",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Connecticut",
         "team": {
             "full_name": "Houston Rockets",
@@ -4451,7 +4451,7 @@
         "last_name": "Niederh\u00e4user",
         "position": "C",
         "jersey_number": "14",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Penn State",
         "team": {
             "full_name": "LA Clippers",
@@ -4464,7 +4464,7 @@
         "last_name": "Nnaji",
         "position": "F-C",
         "jersey_number": "22",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Arizona",
         "team": {
             "full_name": "Denver Nuggets",
@@ -4477,7 +4477,7 @@
         "last_name": "Nurki\u0107",
         "position": "C",
         "jersey_number": "30",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Cedevita",
         "team": {
             "full_name": "Utah Jazz",
@@ -4516,7 +4516,7 @@
         "last_name": "Okogie",
         "position": "G",
         "jersey_number": "20",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Georgia Tech",
         "team": {
             "full_name": "Houston Rockets",
@@ -4529,7 +4529,7 @@
         "last_name": "Okongwu",
         "position": "F-C",
         "jersey_number": "17",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Southern California",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -4542,7 +4542,7 @@
         "last_name": "Okoro",
         "position": "F-G",
         "jersey_number": "35",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Auburn",
         "team": {
             "full_name": "Chicago Bulls",
@@ -4555,7 +4555,7 @@
         "last_name": "Olbrich",
         "position": "C",
         "jersey_number": "47",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Illawarra",
         "team": {
             "full_name": "Chicago Bulls",
@@ -4568,7 +4568,7 @@
         "last_name": "Olynyk",
         "position": "F-C",
         "jersey_number": "8",
-        "draft_year": "2013.0",
+        "draft_year": 2013,
         "college": "Gonzaga",
         "team": {
             "full_name": "San Antonio Spurs",
@@ -4594,7 +4594,7 @@
         "last_name": "Oubre Jr.",
         "position": "F-G",
         "jersey_number": "9",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "Kansas",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -4620,7 +4620,7 @@
         "last_name": "Peavy",
         "position": "G-F",
         "jersey_number": "14",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Georgetown",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -4646,7 +4646,7 @@
         "last_name": "Penda",
         "position": "G-F",
         "jersey_number": "93",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Le Mans Sarthe",
         "team": {
             "full_name": "Orlando Magic",
@@ -4659,7 +4659,7 @@
         "last_name": "Peter",
         "position": "G",
         "jersey_number": "4",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Liberty",
         "team": {
             "full_name": "Indiana Pacers",
@@ -4672,7 +4672,7 @@
         "last_name": "Phillips",
         "position": "F",
         "jersey_number": "4",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Tennessee",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -4685,7 +4685,7 @@
         "last_name": "Pickett",
         "position": "G",
         "jersey_number": "24",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Penn State",
         "team": {
             "full_name": "Denver Nuggets",
@@ -4724,7 +4724,7 @@
         "last_name": "Plumlee",
         "position": "F-C",
         "jersey_number": "45",
-        "draft_year": "2013.0",
+        "draft_year": 2013,
         "college": "Duke",
         "team": {
             "full_name": "San Antonio Spurs",
@@ -4737,7 +4737,7 @@
         "last_name": "Podziemski",
         "position": "G",
         "jersey_number": "2",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Santa Clara",
         "team": {
             "full_name": "Golden State Warriors",
@@ -4750,7 +4750,7 @@
         "last_name": "Poeltl",
         "position": "C",
         "jersey_number": "19",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "Utah",
         "team": {
             "full_name": "Toronto Raptors",
@@ -4763,7 +4763,7 @@
         "last_name": "Poole",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Michigan",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -4789,7 +4789,7 @@
         "last_name": "Porter Jr.",
         "position": "G-F",
         "jersey_number": "7",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Southern California",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -4802,7 +4802,7 @@
         "last_name": "Porter Jr.",
         "position": "F",
         "jersey_number": "17",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Missouri",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -4815,7 +4815,7 @@
         "last_name": "Portis Jr.",
         "position": "F",
         "jersey_number": "9",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "Arkansas",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -4828,7 +4828,7 @@
         "last_name": "Porzi\u0146\u0123is",
         "position": "F-C",
         "jersey_number": "7",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "Cajasol Sevilla",
         "team": {
             "full_name": "Golden State Warriors",
@@ -4841,7 +4841,7 @@
         "last_name": "Post",
         "position": "C",
         "jersey_number": "21",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Boston College",
         "team": {
             "full_name": "Golden State Warriors",
@@ -4880,7 +4880,7 @@
         "last_name": "Powell",
         "position": "G-F",
         "jersey_number": "4",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "North Carolina",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -4893,7 +4893,7 @@
         "last_name": "Powell",
         "position": "F-C",
         "jersey_number": "7",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Stanford",
         "team": {
             "full_name": "Dallas Mavericks",
@@ -4906,7 +4906,7 @@
         "last_name": "Powell",
         "position": "G",
         "jersey_number": "24",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "UCLA",
         "team": {
             "full_name": "Miami Heat",
@@ -4919,7 +4919,7 @@
         "last_name": "Prince",
         "position": "F",
         "jersey_number": "12",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "Baylor",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -4932,7 +4932,7 @@
         "last_name": "Pritchard",
         "position": "G",
         "jersey_number": "11",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Oregon",
         "team": {
             "full_name": "Boston Celtics",
@@ -4945,7 +4945,7 @@
         "last_name": "Proctor",
         "position": "G",
         "jersey_number": "24",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Duke",
         "team": {
             "full_name": "Cleveland Cavaliers",
@@ -4958,7 +4958,7 @@
         "last_name": "Prosper",
         "position": "F",
         "jersey_number": "18",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Marquette",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -4984,7 +4984,7 @@
         "last_name": "Queen",
         "position": "C",
         "jersey_number": "22",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Maryland",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -4997,7 +4997,7 @@
         "last_name": "Queta",
         "position": "C",
         "jersey_number": "88",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Utah State",
         "team": {
             "full_name": "Boston Celtics",
@@ -5010,7 +5010,7 @@
         "last_name": "Quickley",
         "position": "G",
         "jersey_number": "5",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Kentucky",
         "team": {
             "full_name": "Toronto Raptors",
@@ -5023,7 +5023,7 @@
         "last_name": "Randle",
         "position": "F-C",
         "jersey_number": "30",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Kentucky",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -5036,7 +5036,7 @@
         "last_name": "Raynaud",
         "position": "C",
         "jersey_number": "42",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Stanford",
         "team": {
             "full_name": "Sacramento Kings",
@@ -5062,7 +5062,7 @@
         "last_name": "Reed",
         "position": "F",
         "jersey_number": "7",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "DePaul",
         "team": {
             "full_name": "Detroit Pistons",
@@ -5088,7 +5088,7 @@
         "last_name": "Reeves",
         "position": "G",
         "jersey_number": "12",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Kentucky",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -5114,7 +5114,7 @@
         "last_name": "Richard",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Florida",
         "team": {
             "full_name": "Golden State Warriors",
@@ -5127,7 +5127,7 @@
         "last_name": "Richards",
         "position": "C",
         "jersey_number": "13",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Kentucky",
         "team": {
             "full_name": "Chicago Bulls",
@@ -5140,7 +5140,7 @@
         "last_name": "Richardson",
         "position": "G",
         "jersey_number": "11",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Michigan State",
         "team": {
             "full_name": "Orlando Magic",
@@ -5153,7 +5153,7 @@
         "last_name": "Riley",
         "position": "F",
         "jersey_number": "27",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Illinois-Urbana-Champaign",
         "team": {
             "full_name": "Washington Wizards",
@@ -5166,7 +5166,7 @@
         "last_name": "Risacher",
         "position": "F",
         "jersey_number": "10",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "JL Bourg-en-Bresse",
         "team": {
             "full_name": "Atlanta Hawks",
@@ -5192,7 +5192,7 @@
         "last_name": "Robinson",
         "position": "C-F",
         "jersey_number": "23",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Western Kentucky",
         "team": {
             "full_name": "New York Knicks",
@@ -5205,7 +5205,7 @@
         "last_name": "Roddy",
         "position": "F",
         "jersey_number": "45",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Colorado State",
         "team": {
             "full_name": "Denver Nuggets",
@@ -5218,7 +5218,7 @@
         "last_name": "Rollins",
         "position": "G",
         "jersey_number": "13",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Toledo",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -5231,7 +5231,7 @@
         "last_name": "Rupert",
         "position": "G-F",
         "jersey_number": "21",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "New Zealand Breakers",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -5244,7 +5244,7 @@
         "last_name": "Russell",
         "position": "G",
         "jersey_number": "5",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "Ohio State",
         "team": {
             "full_name": "Washington Wizards",
@@ -5270,7 +5270,7 @@
         "last_name": "Sabonis",
         "position": "F-C",
         "jersey_number": "11",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "Gonzaga",
         "team": {
             "full_name": "Sacramento Kings",
@@ -5283,7 +5283,7 @@
         "last_name": "Sala\u00fcn",
         "position": "F",
         "jersey_number": "31",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Cholet",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -5296,7 +5296,7 @@
         "last_name": "Sanders",
         "position": "G",
         "jersey_number": "4",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Nevada",
         "team": {
             "full_name": "LA Clippers",
@@ -5322,7 +5322,7 @@
         "last_name": "Santos",
         "position": "F",
         "jersey_number": "15",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Minas",
         "team": {
             "full_name": "Golden State Warriors",
@@ -5335,7 +5335,7 @@
         "last_name": "Saraf",
         "position": "G",
         "jersey_number": "77",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Ratiopharm Ulm",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -5348,7 +5348,7 @@
         "last_name": "Sarr",
         "position": "C",
         "jersey_number": "20",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Washington Wizards",
         "team": {
             "full_name": "Washington Wizards",
@@ -5374,7 +5374,7 @@
         "last_name": "Sasser",
         "position": "G",
         "jersey_number": "25",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Houston",
         "team": {
             "full_name": "Detroit Pistons",
@@ -5387,7 +5387,7 @@
         "last_name": "Scheierman",
         "position": "G",
         "jersey_number": "55",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Creighton",
         "team": {
             "full_name": "Boston Celtics",
@@ -5400,7 +5400,7 @@
         "last_name": "Schr\u00f6der",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2013.0",
+        "draft_year": 2013,
         "college": "Braunschweig",
         "team": {
             "full_name": "Cleveland Cavaliers",
@@ -5413,7 +5413,7 @@
         "last_name": "Sengun",
         "position": "C",
         "jersey_number": "28",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Besiktas",
         "team": {
             "full_name": "Houston Rockets",
@@ -5426,7 +5426,7 @@
         "last_name": "Sensabaugh",
         "position": "F",
         "jersey_number": "28",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Ohio State",
         "team": {
             "full_name": "Utah Jazz",
@@ -5439,7 +5439,7 @@
         "last_name": "Sexton",
         "position": "G",
         "jersey_number": "2",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Alabama",
         "team": {
             "full_name": "Chicago Bulls",
@@ -5452,7 +5452,7 @@
         "last_name": "Shamet",
         "position": "G",
         "jersey_number": "44",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Wichita State",
         "team": {
             "full_name": "New York Knicks",
@@ -5465,7 +5465,7 @@
         "last_name": "Shannon Jr",
         "position": "G-F",
         "jersey_number": "1",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Illinois",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -5478,7 +5478,7 @@
         "last_name": "Sharpe",
         "position": "C",
         "jersey_number": "20",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "North Carolina",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -5491,7 +5491,7 @@
         "last_name": "Sharpe",
         "position": "G",
         "jersey_number": "17",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Kentucky",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -5504,7 +5504,7 @@
         "last_name": "Shead",
         "position": "G",
         "jersey_number": "23",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Houston",
         "team": {
             "full_name": "Toronto Raptors",
@@ -5517,7 +5517,7 @@
         "last_name": "Sheppard",
         "position": "G",
         "jersey_number": "26",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Belmont",
         "team": {
             "full_name": "Indiana Pacers",
@@ -5530,7 +5530,7 @@
         "last_name": "Sheppard",
         "position": "G",
         "jersey_number": "15",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Kentucky",
         "team": {
             "full_name": "Houston Rockets",
@@ -5543,7 +5543,7 @@
         "last_name": "Shulga",
         "position": "G",
         "jersey_number": "44",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Virginia Commonwealth",
         "team": {
             "full_name": "Boston Celtics",
@@ -5556,7 +5556,7 @@
         "last_name": "Siakam",
         "position": "F",
         "jersey_number": "43",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "New Mexico State",
         "team": {
             "full_name": "Indiana Pacers",
@@ -5569,7 +5569,7 @@
         "last_name": "Simons",
         "position": "G",
         "jersey_number": "22",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Edgewater HS (FL)",
         "team": {
             "full_name": "Chicago Bulls",
@@ -5582,7 +5582,7 @@
         "last_name": "Simpson",
         "position": "G",
         "jersey_number": "25",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Colorado",
         "team": {
             "full_name": "Denver Nuggets",
@@ -5595,7 +5595,7 @@
         "last_name": "Sims",
         "position": "C",
         "jersey_number": "00",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Texas",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -5608,7 +5608,7 @@
         "last_name": "Slawson",
         "position": "F",
         "jersey_number": "18",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Furman",
         "team": {
             "full_name": "Indiana Pacers",
@@ -5621,7 +5621,7 @@
         "last_name": "Small",
         "position": "G",
         "jersey_number": "10",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "West Virginia",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -5634,7 +5634,7 @@
         "last_name": "Smart",
         "position": "G",
         "jersey_number": "36",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Oklahoma State",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -5660,7 +5660,7 @@
         "last_name": "Smith",
         "position": "F-C",
         "jersey_number": "25",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Maryland",
         "team": {
             "full_name": "Chicago Bulls",
@@ -5699,7 +5699,7 @@
         "last_name": "Smith",
         "position": "F",
         "jersey_number": "21",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "NBA G League Ignite",
         "team": {
             "full_name": "Dallas Mavericks",
@@ -5712,7 +5712,7 @@
         "last_name": "Smith Jr.",
         "position": "F",
         "jersey_number": "10",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Auburn",
         "team": {
             "full_name": "Houston Rockets",
@@ -5725,7 +5725,7 @@
         "last_name": "Smith Jr.",
         "position": "G",
         "jersey_number": "20",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Arkansas",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -5738,7 +5738,7 @@
         "last_name": "Sochan",
         "position": "F",
         "jersey_number": "20",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Baylor",
         "team": {
             "full_name": "New York Knicks",
@@ -5751,7 +5751,7 @@
         "last_name": "Spencer",
         "position": "G",
         "jersey_number": "24",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Connecticut",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -5790,7 +5790,7 @@
         "last_name": "Stewart",
         "position": "F-C",
         "jersey_number": "28",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Washington",
         "team": {
             "full_name": "Detroit Pistons",
@@ -5803,7 +5803,7 @@
         "last_name": "Strawther",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Gonzaga",
         "team": {
             "full_name": "Denver Nuggets",
@@ -5829,7 +5829,7 @@
         "last_name": "Suggs",
         "position": "G",
         "jersey_number": "4",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Gonzaga",
         "team": {
             "full_name": "Orlando Magic",
@@ -5855,7 +5855,7 @@
         "last_name": "Tatum",
         "position": "F-G",
         "jersey_number": "0",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Duke",
         "team": {
             "full_name": "Boston Celtics",
@@ -5881,7 +5881,7 @@
         "last_name": "Terry",
         "position": "F",
         "jersey_number": "14",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Arizona",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -5894,7 +5894,7 @@
         "last_name": "Thiero",
         "position": "G",
         "jersey_number": "1",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Arkansas",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -5907,7 +5907,7 @@
         "last_name": "Thompson",
         "position": "G-F",
         "jersey_number": "1",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Overtime Elite",
         "team": {
             "full_name": "Houston Rockets",
@@ -5920,7 +5920,7 @@
         "last_name": "Thompson",
         "position": "G-F",
         "jersey_number": "9",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Overtime Elite",
         "team": {
             "full_name": "Detroit Pistons",
@@ -5946,7 +5946,7 @@
         "last_name": "Thompson",
         "position": "G",
         "jersey_number": "31",
-        "draft_year": "2011.0",
+        "draft_year": 2011,
         "college": "Washington State",
         "team": {
             "full_name": "Dallas Mavericks",
@@ -5959,7 +5959,7 @@
         "last_name": "Thybulle",
         "position": "G-F",
         "jersey_number": "4",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Washington",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -5972,7 +5972,7 @@
         "last_name": "Tillman",
         "position": "F",
         "jersey_number": "26",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Michigan State",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -6011,7 +6011,7 @@
         "last_name": "Tonje",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Wisconsin",
         "team": {
             "full_name": "Boston Celtics",
@@ -6024,7 +6024,7 @@
         "last_name": "Topi\u0107",
         "position": "G",
         "jersey_number": "44",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Crvena zvezda",
         "team": {
             "full_name": "Oklahoma City Thunder",
@@ -6037,7 +6037,7 @@
         "last_name": "Toppin",
         "position": "F",
         "jersey_number": "1",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Dayton",
         "team": {
             "full_name": "Indiana Pacers",
@@ -6050,7 +6050,7 @@
         "last_name": "Towns",
         "position": "C-F",
         "jersey_number": "32",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "Kentucky",
         "team": {
             "full_name": "New York Knicks",
@@ -6063,7 +6063,7 @@
         "last_name": "Traore",
         "position": "G",
         "jersey_number": "88",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Saint-Quentin",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -6076,7 +6076,7 @@
         "last_name": "Trent Jr.",
         "position": "G",
         "jersey_number": "5",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Duke",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -6102,7 +6102,7 @@
         "last_name": "Turner",
         "position": "C-F",
         "jersey_number": "3",
-        "draft_year": "2015.0",
+        "draft_year": 2015,
         "college": "Texas",
         "team": {
             "full_name": "Milwaukee Bucks",
@@ -6115,7 +6115,7 @@
         "last_name": "Tyson",
         "position": "G-F",
         "jersey_number": "20",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "California",
         "team": {
             "full_name": "Cleveland Cavaliers",
@@ -6128,7 +6128,7 @@
         "last_name": "Valanciunas",
         "position": "C",
         "jersey_number": "17",
-        "draft_year": "2011.0",
+        "draft_year": 2011,
         "college": "Lietuvos rytas Vilnius",
         "team": {
             "full_name": "Denver Nuggets",
@@ -6141,7 +6141,7 @@
         "last_name": "Vanderbilt",
         "position": "F",
         "jersey_number": "2",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Kentucky",
         "team": {
             "full_name": "Los Angeles Lakers",
@@ -6154,7 +6154,7 @@
         "last_name": "Vassell",
         "position": "G-F",
         "jersey_number": "24",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Florida State",
         "team": {
             "full_name": "San Antonio Spurs",
@@ -6180,7 +6180,7 @@
         "last_name": "Vukcevic",
         "position": "F",
         "jersey_number": "00",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Real Madrid",
         "team": {
             "full_name": "Washington Wizards",
@@ -6193,7 +6193,7 @@
         "last_name": "Vu\u010devi\u0107",
         "position": "C",
         "jersey_number": "4",
-        "draft_year": "2011.0",
+        "draft_year": 2011,
         "college": "Southern California",
         "team": {
             "full_name": "Boston Celtics",
@@ -6219,7 +6219,7 @@
         "last_name": "Wagner",
         "position": "F",
         "jersey_number": "22",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Michigan",
         "team": {
             "full_name": "Orlando Magic",
@@ -6232,7 +6232,7 @@
         "last_name": "Wagner",
         "position": "F-C",
         "jersey_number": "21",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Michigan",
         "team": {
             "full_name": "Orlando Magic",
@@ -6245,7 +6245,7 @@
         "last_name": "Walker",
         "position": "F",
         "jersey_number": "33",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Colorado",
         "team": {
             "full_name": "Philadelphia 76ers",
@@ -6258,7 +6258,7 @@
         "last_name": "Walker",
         "position": "F",
         "jersey_number": "5",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Houston",
         "team": {
             "full_name": "Indiana Pacers",
@@ -6271,7 +6271,7 @@
         "last_name": "Wallace",
         "position": "G",
         "jersey_number": "22",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Kentucky",
         "team": {
             "full_name": "Oklahoma City Thunder",
@@ -6297,7 +6297,7 @@
         "last_name": "Walsh",
         "position": "G",
         "jersey_number": "27",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Arkansas",
         "team": {
             "full_name": "Boston Celtics",
@@ -6310,7 +6310,7 @@
         "last_name": "Walter",
         "position": "G",
         "jersey_number": "14",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Baylor",
         "team": {
             "full_name": "Toronto Raptors",
@@ -6323,7 +6323,7 @@
         "last_name": "Ware",
         "position": "C",
         "jersey_number": "7",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Indiana",
         "team": {
             "full_name": "Miami Heat",
@@ -6336,7 +6336,7 @@
         "last_name": "Washington",
         "position": "F",
         "jersey_number": "25",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Kentucky",
         "team": {
             "full_name": "Dallas Mavericks",
@@ -6349,7 +6349,7 @@
         "last_name": "Washington Jr.",
         "position": "G",
         "jersey_number": "14",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Kentucky",
         "team": {
             "full_name": "LA Clippers",
@@ -6388,7 +6388,7 @@
         "last_name": "Watkins",
         "position": "F",
         "jersey_number": "5",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Florida State",
         "team": {
             "full_name": "Washington Wizards",
@@ -6401,7 +6401,7 @@
         "last_name": "Watson",
         "position": "G",
         "jersey_number": "8",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "UCLA",
         "team": {
             "full_name": "Denver Nuggets",
@@ -6414,7 +6414,7 @@
         "last_name": "Wells",
         "position": "F",
         "jersey_number": "0",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Washington State",
         "team": {
             "full_name": "Memphis Grizzlies",
@@ -6427,7 +6427,7 @@
         "last_name": "Wembanyama",
         "position": "F-C",
         "jersey_number": "1",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Metropolitans 92",
         "team": {
             "full_name": "San Antonio Spurs",
@@ -6440,7 +6440,7 @@
         "last_name": "Wesley",
         "position": "G",
         "jersey_number": "1",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Notre Dame",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -6453,7 +6453,7 @@
         "last_name": "Westbrook",
         "position": "G",
         "jersey_number": "18",
-        "draft_year": "2008.0",
+        "draft_year": 2008,
         "college": "UCLA",
         "team": {
             "full_name": "Sacramento Kings",
@@ -6466,7 +6466,7 @@
         "last_name": "White",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "North Carolina",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -6479,7 +6479,7 @@
         "last_name": "White",
         "position": "G",
         "jersey_number": "9",
-        "draft_year": "2017.0",
+        "draft_year": 2017,
         "college": "Colorado",
         "team": {
             "full_name": "Boston Celtics",
@@ -6492,7 +6492,7 @@
         "last_name": "Whitmore",
         "position": "F",
         "jersey_number": "1",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Villanova",
         "team": {
             "full_name": "Washington Wizards",
@@ -6505,7 +6505,7 @@
         "last_name": "Wiggins",
         "position": "G",
         "jersey_number": "21",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Maryland",
         "team": {
             "full_name": "Oklahoma City Thunder",
@@ -6518,7 +6518,7 @@
         "last_name": "Wiggins",
         "position": "F",
         "jersey_number": "22",
-        "draft_year": "2014.0",
+        "draft_year": 2014,
         "college": "Kansas",
         "team": {
             "full_name": "Miami Heat",
@@ -6531,7 +6531,7 @@
         "last_name": "Williams",
         "position": "F-C",
         "jersey_number": "77",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Kentucky",
         "team": {
             "full_name": "Boston Celtics",
@@ -6557,7 +6557,7 @@
         "last_name": "Williams",
         "position": "F",
         "jersey_number": "5",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Colorado",
         "team": {
             "full_name": "Utah Jazz",
@@ -6570,7 +6570,7 @@
         "last_name": "Williams",
         "position": "F",
         "jersey_number": "2",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Tennessee",
         "team": {
             "full_name": "Charlotte Hornets",
@@ -6583,7 +6583,7 @@
         "last_name": "Williams",
         "position": "G-F",
         "jersey_number": "8",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Santa Clara",
         "team": {
             "full_name": "Oklahoma City Thunder",
@@ -6596,7 +6596,7 @@
         "last_name": "Williams",
         "position": "F",
         "jersey_number": "6",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Arkansas",
         "team": {
             "full_name": "Oklahoma City Thunder",
@@ -6622,7 +6622,7 @@
         "last_name": "Williams",
         "position": "C",
         "jersey_number": "15",
-        "draft_year": "2022.0",
+        "draft_year": 2022,
         "college": "Duke",
         "team": {
             "full_name": "Phoenix Suns",
@@ -6648,7 +6648,7 @@
         "last_name": "Williams",
         "position": "F",
         "jersey_number": "44",
-        "draft_year": "2020.0",
+        "draft_year": 2020,
         "college": "Florida State",
         "team": {
             "full_name": "Chicago Bulls",
@@ -6661,7 +6661,7 @@
         "last_name": "Williams",
         "position": "F",
         "jersey_number": "1",
-        "draft_year": "2021.0",
+        "draft_year": 2021,
         "college": "Stanford",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -6674,7 +6674,7 @@
         "last_name": "Williams III",
         "position": "C-F",
         "jersey_number": "35",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Texas A&M",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -6687,7 +6687,7 @@
         "last_name": "Williamson",
         "position": "F",
         "jersey_number": "1",
-        "draft_year": "2019.0",
+        "draft_year": 2019,
         "college": "Duke",
         "team": {
             "full_name": "New Orleans Pelicans",
@@ -6700,7 +6700,7 @@
         "last_name": "Wilson",
         "position": "F",
         "jersey_number": "22",
-        "draft_year": "2023.0",
+        "draft_year": 2023,
         "college": "Kansas",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -6713,7 +6713,7 @@
         "last_name": "Wolf",
         "position": "F",
         "jersey_number": "2",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Michigan",
         "team": {
             "full_name": "Brooklyn Nets",
@@ -6726,7 +6726,7 @@
         "last_name": "Yabusele",
         "position": "F",
         "jersey_number": "28",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "Rouen, France",
         "team": {
             "full_name": "Chicago Bulls",
@@ -6739,7 +6739,7 @@
         "last_name": "Hansen",
         "position": "C",
         "jersey_number": "16",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Zibo",
         "team": {
             "full_name": "Portland Trail Blazers",
@@ -6765,7 +6765,7 @@
         "last_name": "Young",
         "position": "G",
         "jersey_number": "3",
-        "draft_year": "2018.0",
+        "draft_year": 2018,
         "college": "Oklahoma",
         "team": {
             "full_name": "Washington Wizards",
@@ -6791,7 +6791,7 @@
         "last_name": "Zikarsky",
         "position": "C",
         "jersey_number": "44",
-        "draft_year": "2025.0",
+        "draft_year": 2025,
         "college": "Brisbane Bullets (Australia)",
         "team": {
             "full_name": "Minnesota Timberwolves",
@@ -6804,7 +6804,7 @@
         "last_name": "Zubac",
         "position": "C",
         "jersey_number": "40",
-        "draft_year": "2016.0",
+        "draft_year": 2016,
         "college": "Mega Basket",
         "team": {
             "full_name": "Indiana Pacers",
@@ -6817,7 +6817,7 @@
         "last_name": "da Silva",
         "position": "F",
         "jersey_number": "23",
-        "draft_year": "2024.0",
+        "draft_year": 2024,
         "college": "Colorado",
         "team": {
             "full_name": "Orlando Magic",

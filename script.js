@@ -323,7 +323,7 @@ function revealClue() {
     const clues = getClues(mysteryPlayer);
 
     if (clueNumber >= clues.length) {
-        message.textContent = "Every feature is out. Guess, or resolve the shot.";
+        message.textContent = "Every clue is out. Guess, or resolve the shot.";
         return;
     }
 
@@ -359,11 +359,11 @@ function revealClue() {
 
     if (clueNumber === clues.length) {
         clueButton.disabled = true;
-        message.textContent = "Last feature. The ball is already coming down.";
+        message.textContent = "Last clue. The ball is already coming down.";
         setPhase("DESCENDING");
     }
     else {
-        message.textContent = `Feature ${clueNumber} revealed.`;
+        message.textContent = `Clue ${clueNumber} revealed.`;
     }
 
 }
@@ -647,7 +647,7 @@ function checkGuess() {
 
     /* WRONG */
 
-    message.textContent = "Not a match. Guess again or reveal another feature.";
+    message.textContent = "Not a match. Guess again or reveal another clue.";
     setPhase("LOCK LOST");
 
     shakeBasketball();

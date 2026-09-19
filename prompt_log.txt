@@ -1,0 +1,46 @@
+Prompt Log
+
+ChatGPT and Claude
+
+Started ChatGPT
+1) I want to guess the NBA player and basketball moving closer to the hoop (in an arch) for each clue. Can you find me a free api with NBA player info and the baseline code to start this project. I want to give 5 clues, and each time a clue is lost the possible score you can get drops. I want an icon of a person shooting a basketball alongside clues/ guesses and each clue the use the ball gets closer to the basket and if they give up they miss and if they guess correctly then make the basket
+2) OK i want version 2 where 1) connect to API 2) make hoop look more realistic (cite image used) 3) when get a guess wrong have basketball shake 4) if use all guesses, do not make ball go into hoop, finish the shot and miss basket 5) if guess correctly at any point, have ball finish path to basket and go in hoop 6) as start typing, have a dropdown that will match when already type but finish it with all the options that match first few letters typed so someone doesnt get it wrong bc of case sensitivity
+3) when I press reveal clue currently nothing. can you give me full code that will read from api and the functionalities will work
+4) I LOVE IT!! Keep everything the same except this one thing. Please fix the hoop. No need for the white box above the rim or that gray slant at the top of the back board. Also, for a missed shot, have it hit off the top of the backboard and bounce off to the floor. ONLY change these things, NO other functionality should be changed.
+5) only change this ONE thing: make the ball path not get as close to the rim at last clue so if make or miss the ball path continue to a make or continues to a miss (still off top of backboard) but it doesnt look like ball magically change path
+6) how do i use gitignore to hide my api key when i push to github
+7) Can i make github pages work while keeping my password a secret?
+8) This is the path of the ball I want to correct (make) and give up (miss). please adjust the code to do this and DO NOT CHANGE ANYTHING ELSE
+9) perfect, the miss does not hit the backboard tho. it is about a cm off. I want you to fix the code because when the user gives up the shot is supposed to hit the backboard and bounce off but currently it does not touch the backboard or get close enough
+10) give me full redo of miss shot: if I give up after clue 1 I still want the path to be followed that would be if got to clue 5. also fix closeness to backboard
+11) can you make the shot smooth animation?
+12) what does per_page=100 mean? why is my API not including recent players?: "https://api.balldontlie.io/v1/players?per_page=100";
+
+Changes to Claude
+
+1) Can you make my game look more high tech/ stat like. I want to make it look like those visualizations statistic people make when looking at sports data. Also, I want it to fit the vibe of my website so I can insert it as a fun interactive game (also included a picture of my website).
+
+Back to chatGPT (using free version of Claude so have limited messages)
+
+1) please fix ONLY this: I want the ball path to go through the hoop. This is it currently, as you can see it is a little bit before the rim
+2) can you add a few features to my game. 1) track score 2) change clues to : position, number, draft year, college, NBA team full_name. please ONLY change these things and ask me any questions needed about these requests or something else before you change it
+3) I want to keep a tally of points they each for different player guesses. for example, if they are guessing player 1, what every points they are at when they get the palyer correct add it to their total score. If they give up they get 0 points. replace "ARC" in the feature, certainty, arc row with TOTAL POINTS. 
+4) sorry I actually want to redo my request!!! instead place total points in the upper right corner where "RESOLVED" is currently. (take away RESOLVED). I want TOTAL POINTS, and then a "PLAYERS GUESSED CORRECTLY" vs "PLAYERS ATTEMPTED" but maybe do something creative here like shooting percentage or shots made but make it clear it is players guessed correct
+5) why does the shot not go in now if you guess correctly!!! I told you not to change anything but what i asked
+6) script(2).js is my old script. I WANT ALL THE FUNCTIONALITY of my old script back including making shots when guess correctly, picking a new player when guess correctly, EVERYTHING. the ONLY thing I want from script(1).js is total points and the players guessed correctly in top right corner. THAT IS IT. if anything is confusing please ask questions.
+7) you do not seem to be doin what i ask so please explain to me what exact code snippets and locations are used to get total points and total guesses so I can fix them myself?
+8) can you give me the code snippets that will change clues to : position, number, draft year, college, NBA team full_name. Also give me code snippets to the total points/ correct guesses addition
+9) How do I display my game on my website?
+10) Can I connect the github pages instead?
+11) Does Python have a NBA player info API with no key that has similar info to the things I am using from BALL DONT LIE?
+12) show me exactly how to replace BALLDONTLIE in my existing game with the NBA API while leaving all of my current game functionality untouched
+13) I am getting: Couldn't load the player pool. Check the browser console.
+14) The Inspect Console error: script.js:143 PLAYER LOAD ERROR: SyntaxError: Unexpected token 'N', ..."ft_year": NaN, "... is not valid JSON
+15) How do I fix this again? when i make my screen bigger or smaller the end of the arc changes, can i make it always be in the center of rim?
+16) Now it looks like this. I want a smooth curve not that little dip at the end
+17) on a make, the ball did not follow the new trajectory we just edited, can we do the same fix for a made shot?
+18) the ball stops at the rim, can we make it still go through to the floor??
+19) ok now how do i connect to github pages?
+
+Final touches on Claude
+20) This is what it looks like on my website right now. Can you kinda minimize how much space the game takes up by making the clues and new clue/ give up/ new player and guess player to be side by side to shooter instead of under?
